@@ -1,0 +1,1551 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta name="description" content="Slide chạy ảnh đẹp luôn là những điểm nhấn trên 1 Website, blog. Slide đó bạn có thể trình bày những thông tin nổi bật như bài viết, quảng cáo, hình..." />
+<meta name="keywords" content="jquery slide show" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="vi" />
+<meta name="author" content="MegaCode" />
+<meta name="copyright" content="Vinagon" />
+<meta name="robots" content="index, archive, follow, noodp" />
+<meta name="googlebot" content="index,archive,follow,noodp" />
+<meta name="msnbot" content="all,index,follow" />
+<meta name="generator" content="Vinagon" />
+<link rel="canonical" href="https://megacode.vn/files/view/jquery-slide-show-chay-anh-dep-cho-web-1487.html" />
+
+        <meta http-equiv="refresh" content="3000" />
+		<meta name="revisit-after" content="1 days" />
+        <title>Jquery slide show chạy ảnh đẹp cho Web - MegaCode</title>
+
+		<link href="https://megacode.vn/themes/megacode/css/megastyles.css?ver=2.0" rel="stylesheet" type="text/css"/>   
+		<link rel="icon" href="https://megacode.vn/favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="shortcut icon" href="https://megacode.vn/favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" type="text/css" href="https://megacode.vn/themes/megacode/css/reset.css?ver=1.0" media="screen"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="https://megacode.vn/themes/megacode/css/icons.css" />
+        <link rel="stylesheet" type="text/css" href="https://megacode.vn/js/dmenu/tdmenu.css?ver=0.3" />
+		<link rel="StyleSheet" href="https://megacode.vn/themes/default/css/files.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://megacode.vn/themes/megacode/css/tab_info.css" />
+
+        
+        <script type="text/javascript">var siteUrl="https://megacode.vn/",siteLang="vi",nameVariable="com",funVariable="fun",langVariable="lang",moduleName="files",cookiePrefix="mega_cxnmmt",areaAdmin=0;</script>
+<script type="text/javascript" src="https://megacode.vn/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="https://megacode.vn/modules/files/js/site.js"></script>
+
+        <script type="text/javascript" src="https://megacode.vn/themes/megacode/js/msite.js?ver=0.5"></script>
+		<link href="https://megacode.vn/js/antiscroll/jquery.mCustomScrollbar.css" rel="stylesheet" />
+		<script type="text/javascript" src="https://megacode.vn/js/antiscroll/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="https://megacode.vn/js/jraty/lib/jquery.raty.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://megacode.vn/themes/megacode/css/icon/font-awesome.css" />
+        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-53168069-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>		<style type="text/css">
+			@font-face {
+			  font-family: 'FontAwesome';
+			  src: url('https://megacode.vn/themes/megacode/css/icon/fontawesome-webfontf77b.eot?v=3.2.1');
+			  src: url('https://megacode.vn/themes/megacode/css/icon/fontawesome-webfontd41d.eot?#iefix&v=3.2.1') format('embedded-opentype'),  url('https://megacode.vn/themes/megacode/css/icon/fontawesome-webfontf77b.ttf?v=3.2.1') format('truetype'), url('https://megacode.vn/themes/megacode/css/icon/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+			  font-weight: normal;
+			  font-style: normal;
+			}
+		</style>
+		<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="600477619985632"
+		greeting_dialog_display="hide"
+		>
+      </div>
+	
+		<meta property="og:site_name" content="megacode.vn"/>
+		<meta property="og:title" content="Jquery slide show chạy ảnh đẹp cho Web"/>
+		<meta property="og:url" content="https://megacode.vn/files/view/jquery-slide-show-chay-anh-dep-cho-web-1487.html"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:image" content="https://megacode.vn/var/mfiles/files/banner_js_4b30e5b5a4a6d2f6d89050b43ced3e02.png"/>
+		<meta property="og:description" content="Slide chạy ảnh đẹp luôn là những điểm nhấn trên 1 Website, blog. Slide đó bạn có thể trình bày những thông tin nổi bật như bài viết, quảng cáo, hình ảnh đẹp...1 hiệu ứng Slide đẹp cũng góp phần làm tô điểm thêm cái đẹp và sống động của trang Web. Ở bài viết hôm nay mình giới thiệu tới các bạn V2 của Slide Jquery chạy ảnh.">
+		</head>
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=550912201661629";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+        <div id="body">
+        <div class="menutop">
+            <div class="wapfull">
+                
+	<div class="nav">
+    <ul class="fl">
+    <li><a href="https://megacode.vn/">Trang chủ</a></li>
+    <li>
+        <a title="Thư viện code" class="current" href="https://megacode.vn/files.html">Thư viện code</a>
+        <ul>
+            <li>
+            	<a title="Phát triển website" class="" href="https://megacode.vn/files/phat-trien-website.html">Phát triển website</a>
+                <ul>
+<li>
+<a title="Joomla template" href="https://megacode.vn/files/joomla-template.html">Joomla template</a>
+</li>
+<li>
+<a title="Drupal  template" href="https://megacode.vn/files/drupal-template.html">Drupal  template</a>
+</li>
+<li>
+<a title="Magento template" href="https://megacode.vn/files/magento-template.html">Magento template</a>
+</li>
+<li>
+<a title="WordPress template" href="https://megacode.vn/files/wordpress-template.html">WordPress template</a>
+</li>
+<li>
+<a title="Nukeviet template" href="https://megacode.vn/files/nukeviet-template.html">Nukeviet template</a>
+</li>
+<li>
+<a title="Opencart template" href="https://megacode.vn/files/opencart-template.html">Opencart template</a>
+</li>
+<li>
+<a title="HTML-CSS template" href="https://megacode.vn/files/html-css-template.html">HTML-CSS template</a>
+</li>
+<li>
+<a title="Forum PHPBB, VBB" href="https://megacode.vn/files/forum-phpbb-vbb.html">Forum PHPBB, VBB</a>
+</li>
+<li>
+<a title="Flash template, Flash game" href="https://megacode.vn/files/flash-template.html">Flash template, Flash game</a>
+</li>
+<li>
+<a title="Php&amp;mySql" href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+</li>
+<li>
+<a title="Javascript" href="https://megacode.vn/files/javascript.html">Javascript</a>
+</li>
+<li>
+<a title="ASP.NET Framework" href="https://megacode.vn/files/net-framework.html">ASP.NET Framework</a>
+</li>
+<li>
+<a title="Hotdeal Code" href="https://megacode.vn/files/hotdeal-code.html">Hotdeal Code</a>
+</li>
+<li>
+<a title="Laravel" href="https://megacode.vn/files/laravel.html">Laravel</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Thiết kế đồ họa" class="" href="https://megacode.vn/files/thiet-ke-do-hoa.html">Thiết kế đồ họa</a>
+                <ul>
+<li>
+<a title="Adobe Photoshop" href="https://megacode.vn/files/adobe-photoshop.html">Adobe Photoshop</a>
+</li>
+<li>
+<a title="Autodesk 3DS Max" href="https://megacode.vn/files/autodesk-3ds-max.html">Autodesk 3DS Max</a>
+</li>
+<li>
+<a title="CorelDRAW Graphics" href="https://megacode.vn/files/coreldraw-graphics.html">CorelDRAW Graphics</a>
+</li>
+<li>
+<a title="Autodesk AutoCAD" href="https://megacode.vn/files/autodesk-autocad.html">Autodesk AutoCAD</a>
+</li>
+<li>
+<a title="Mathworks Matlab" href="https://megacode.vn/files/mathworks-matlab.html">Mathworks Matlab</a>
+</li>
+<li>
+<a title="Adobe Illustrator graphic" href="https://megacode.vn/files/adobe-illustrator-graphic.html">Adobe Illustrator graphic</a>
+</li>
+<li>
+<a title="Adobe After Effects" href="https://megacode.vn/files/adobe-after-effects.html">Adobe After Effects</a>
+</li>
+<li>
+<a title="Icons" href="https://megacode.vn/files/icons.html">Icons</a>
+</li>
+<li>
+<a title="Sketchup" href="https://megacode.vn/files/sketchup.html">Sketchup</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Ứng dụng desktop" class="" href="https://megacode.vn/files/ung-dung-desktop.html">Ứng dụng desktop</a>
+                <ul>
+<li>
+<a title="C &#x002F; C++ &#x002F; MFC" href="https://megacode.vn/files/c-c-mfc.html">C &#x002F; C++ &#x002F; MFC</a>
+</li>
+<li>
+<a title="Visual studio &amp; .NET" href="https://megacode.vn/files/visual-studio-net.html">Visual studio &amp; .NET</a>
+</li>
+<li>
+<a title="Sharepoint" href="https://megacode.vn/files/sharepoint.html">Sharepoint</a>
+</li>
+<li>
+<a title="Visual Basic" href="https://megacode.vn/files/visual-basic.html">Visual Basic</a>
+</li>
+<li>
+<a title="Java Sun" href="https://megacode.vn/files/java-sun.html">Java Sun</a>
+</li>
+<li>
+<a title="MS Office" href="https://megacode.vn/files/ms-office.html">MS Office</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Ứng dụng mobile" class="" href="https://megacode.vn/files/ung-dung-mobile.html">Ứng dụng mobile</a>
+                <ul>
+<li>
+<a title="Wap mobile" href="https://megacode.vn/files/wap-mobile.html">Wap mobile</a>
+</li>
+<li>
+<a title="Java mobile" href="https://megacode.vn/files/java-mobile.html">Java mobile</a>
+</li>
+<li>
+<a title="Android" href="https://megacode.vn/files/android.html">Android</a>
+</li>
+<li>
+<a title="Windows phone" href="https://megacode.vn/files/windows-phone.html">Windows phone</a>
+</li>
+<li>
+<a title="iPhone OS" href="https://megacode.vn/files/iphone-os.html">iPhone OS</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Tài liệu và Thủ thuật" class="" href="https://megacode.vn/files/tai-lieu.html">Tài liệu và Thủ thuật</a>
+                <ul>
+<li>
+<a title="Đồ án, luận văn, báo cáo" href="https://megacode.vn/files/do-an-luan-van-bao-cao.html">Đồ án, luận văn, báo cáo</a>
+</li>
+<li>
+<a title="Tài liệu tham khảo" href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+</li>
+<li>
+<a title="Ý tưởng thiết kế" href="https://megacode.vn/files/y-tuong-thiet-ke.html">Ý tưởng thiết kế</a>
+</li>
+<li>
+<a title="Mẫu biểu - Hướng dẫn" href="https://megacode.vn/files/mau-bieu-huong-dan.html">Mẫu biểu - Hướng dẫn</a>
+</li>
+<li>
+<a title="Thủ thuật máy tính" href="https://megacode.vn/files/thu-thuat-may-tinh.html">Thủ thuật máy tính</a>
+</li>
+<li>
+<a title="Google Adsense" href="https://megacode.vn/files/google-adsense.html">Google Adsense</a>
+</li>
+<li>
+<a title="Thủ thuật SEO" href="https://megacode.vn/files/thu-thuat-seo.html">Thủ thuật SEO</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Cơ sở dữ liệu" class="" href="https://megacode.vn/files/co-so-du-lieu.html">Cơ sở dữ liệu</a>
+                <ul>
+<li>
+<a title="MySQL" href="https://megacode.vn/files/mysql.html">MySQL</a>
+</li>
+<li>
+<a title="Oracle" href="https://megacode.vn/files/oracle.html">Oracle</a>
+</li>
+<li>
+<a title="PostgreSQL" href="https://megacode.vn/files/postgresql.html">PostgreSQL</a>
+</li>
+<li>
+<a title="SQL Server" href="https://megacode.vn/files/sql-server.html">SQL Server</a>
+</li>
+</ul>
+
+            </li><li>
+            	<a title="Công cụ phát triển" class="" href="https://megacode.vn/files/cong-cu-phat-trien.html">Công cụ phát triển</a>
+                
+            </li><li>
+            	<a title="Hệ thống nhúng" class="" href="https://megacode.vn/files/he-thong-nhung.html">Hệ thống nhúng</a>
+                
+            </li>
+        </ul>
+    </li><li>
+        <a title="Sách tham khảo" class="" href="https://megacode.vn/books.html">Sách tham khảo</a>
+        <ul>
+            <li>
+            	<a title="Công nghệ thông tin" class="" href="https://megacode.vn/books/cong-nghe-thong-tin.html">Công nghệ thông tin</a>
+                
+            </li><li>
+            	<a title="Cơ khí, chế tạo Máy" class="" href="https://megacode.vn/books/co-khi-che-tao-may.html">Cơ khí, chế tạo Máy</a>
+                
+            </li><li>
+            	<a title="Giao Thông Vận Tải" class="" href="https://megacode.vn/books/giao-thong-van-tai.html">Giao Thông Vận Tải</a>
+                
+            </li><li>
+            	<a title="Kinh tế &amp; KH quản lý" class="" href="https://megacode.vn/books/kinh-te-kh-quan-ly.html">Kinh tế &amp; KH quản lý</a>
+                
+            </li><li>
+            	<a title="Phổ biến kiến thức" class="" href="https://megacode.vn/books/pho-bien-kien-thuc.html">Phổ biến kiến thức</a>
+                
+            </li><li>
+            	<a title="Từ điển, ngoại ngữ" class="" href="https://megacode.vn/books/tu-dien-ngoai-ngu.html">Từ điển, ngoại ngữ</a>
+                
+            </li><li>
+            	<a title="Xây dựng, kiến trúc" class="" href="https://megacode.vn/books/xay-dung-kien-truc.html">Xây dựng, kiến trúc</a>
+                
+            </li><li>
+            	<a title="Điện, Điện lạnh" class="" href="https://megacode.vn/books/khoa-hoc-ky-thuat.html">Điện, Điện lạnh</a>
+                
+            </li><li>
+            	<a title="Lịch sử, địa lý" class="" href="https://megacode.vn/books/lich-su-dia-ly.html">Lịch sử, địa lý</a>
+                
+            </li><li>
+            	<a title="Y, dược, sinh lý học" class="" href="https://megacode.vn/books/y-duoc-sinh-ly-hoc.html">Y, dược, sinh lý học</a>
+                
+            </li><li>
+            	<a title="Toán học" class="" href="https://megacode.vn/books/toan-hoc.html">Toán học</a>
+                
+            </li><li>
+            	<a title="Vật lý học" class="" href="https://megacode.vn/books/vat-ly-hoc.html">Vật lý học</a>
+                
+            </li><li>
+            	<a title="Hoá học, CN thực phẩm" class="" href="https://megacode.vn/books/hoa-hoc-cn-thuc-pham.html">Hoá học, CN thực phẩm</a>
+                
+            </li><li>
+            	<a title="Sinh học, KH nông nghiệp" class="" href="https://megacode.vn/books/sinh-hoc-kh-nong-nghiep.html">Sinh học, KH nông nghiệp</a>
+                
+            </li><li>
+            	<a title="Môi trường" class="" href="https://megacode.vn/books/moi-truong.html">Môi trường</a>
+                
+            </li><li>
+            	<a title="Điểu khiển tự động" class="" href="https://megacode.vn/books/dieu-khien-tu-dong.html">Điểu khiển tự động</a>
+                
+            </li><li>
+            	<a title="Sách khác" class="" href="https://megacode.vn/books/sach-khac.html">Sách khác</a>
+                
+            </li>
+        </ul>
+    </li><li>
+        <a title="Rao vặt" class="" href="https://megacode.vn/soft.html">Rao vặt</a>
+        
+    </li><li>
+        <a title="Công nghệ" class="" href="https://megacode.vn/news.html">Công nghệ</a>
+        
+    </li><li>
+        <a title="Cách nạp MEGA" class="" href="https://megacode.vn/nap-mega.html">Cách nạp MEGA</a>
+        
+    </li><li>
+        <a title="Liên hệ" class="" href="https://megacode.vn/contact.html">Liên hệ</a>
+        
+    </li>  
+    <li>
+        <a title="hướng dẫn" href="https://megacode.vn/files/group/huong-dan-4.html">Hướng dẫn</a>
+    </li>
+	<li>
+        <a title="Hosting" href="https://megacode.vn/thong-tin/bao-gia-hosting-megacode.html">Hosting</a>
+    </li>     
+	</ul>
+	<ul class="fr">
+		<li><a href="https://megacode.vn/?com=files&fun=search&q=" title="Search all">Search all</a></li>
+		<li><a href="https://megacode.vn/files/free.html" title="Code free">Code free</a></li>
+		<li><a href="https://megacode.vn/rss.html" title="RSS">Sitemap</a></li>
+	</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="headertop">
+            <div class="wapfull clearfix">
+            	<div class="fl" style="padding-top:9px">
+                    <a href="https://megacode.vn/">
+                    <img src="https://megacode.vn/images/logo.png?ver=1.0" alt="logo megacode" /></a>
+                </div>
+                <div class="fr clearfix">
+                	
+	<div class="blogin">    <a href="https://megacode.vn/index.php?lang=vi&amp;com=users&amp;fun=login&amp;nv_redirect=aHR0cHM6Ly9tZWdhY29kZS52bi9maWxlcy92aWV3L2pxdWVyeS1zbGlkZS1zaG93LWNoYXktYW5oLWRlcC1jaG8td2ViLTE0ODcuaHRtbA,,"><i class="fa fa-user" aria-hidden="true"></i> Đăng nhập</a>    &nbsp;&nbsp;&nbsp;&nbsp;    <a href="https://megacode.vn/users/lostpass.html">Quên mật khẩu</a>&nbsp;&nbsp;&nbsp;&nbsp;    <a href="https://megacode.vn/users/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Đăng  ký</a></div>
+
+                </div>
+				<div class="fr" style="margin-left:20px">
+                    <form action="" method="get" onsubmit="return search_filess()">
+                        <div class="div_search clearfix">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+							<input name="topmenu_search_query" id="topmenu_search_query" class="textsearch" type="text" value="" placeholder="Search..." />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="wapfull">
+              <div style="margin-top:10px; margin-bottom:15px">
+	
+
+<div class="clear"></div>
+<div style="margin-top:2px;position:relative">
+	
+	
+	<a href="https://megacode.vn/banners/click/32.html" onclick="this.target='_blank'" title="quang cao hosting">
+		<img alt="quang cao hosting" style="border-width:0px" src="https://megacode.vn/media/banners/hosting2_1.png" width="1100" height="86" />
+	</a>
+	
+	
+</div>
+
+</div>
+        </div>
+        <div class="wapfull"></div>
+        
+        <div class="wapfull" style="margin-bottom:8px">
+            <div class="breakcolumn">
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <a href="https://megacode.vn/" itemprop="url" title="Thư viện mã nguồn">
+                    <span itemprop="title"><strong>Thư viện mã nguồn</strong></span>
+                  </a>
+                </span>  
+                 
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                  › <a href="https://megacode.vn/files.html" itemprop="url" title="Thư viện code">
+                    <span itemprop="title">Thư viện code</span>
+                  </a> 
+                </span>    	
+                 
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                  › <a href="https://megacode.vn/files/phat-trien-website.html" itemprop="url" title="Phát triển website">
+                    <span itemprop="title">Phát triển website</span>
+                  </a> 
+                </span>    	
+                 
+                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                  › <a href="https://megacode.vn/files/php-mysql.html" itemprop="url" title="Php&amp;mySql">
+                    <span itemprop="title">Php&amp;mySql</span>
+                  </a> 
+                </span>    	
+                
+            </div>
+        </div>
+         
+        <div class="wapfull">
+              
+	<div id="seachForms">
+    <form name="searchPagedForm" id="ieLastForm" method="get" action="https://megacode.vn/" onsubmit="return search_news()">
+        <p>
+            <label for="freeKeywordSearch" style="width:180px">Tìm kiếm File:</label>
+            <label for="freeCategorySearch">Chuyên muc:</label>
+            <label for="freeFieldSearch">Lĩnh vực:</label>
+            <label for="freeFieldSearch">Mega tải:</label>
+            <label for="freeFieldSearch">Sắp xếp:</label>
+        </p>
+        <p class="relative">
+            <input type="text" name="keywordSearch" id="freeKeywordSearch" value=""/>
+            <select name="categorySearch" id="freeCategorySearch">
+                <option value="0">Tất cả chuyên mục</option>
+                <option value="1" >Phát triển website</option><option value="8" >&nbsp;&nbsp;&nbsp;|---&nbsp;Joomla template</option><option value="9" >&nbsp;&nbsp;&nbsp;|---&nbsp;Drupal  template</option><option value="10" >&nbsp;&nbsp;&nbsp;|---&nbsp;Magento template</option><option value="11" >&nbsp;&nbsp;&nbsp;|---&nbsp;WordPress template</option><option value="12" >&nbsp;&nbsp;&nbsp;|---&nbsp;Nukeviet template</option><option value="53" >&nbsp;&nbsp;&nbsp;|---&nbsp;Opencart template</option><option value="13" >&nbsp;&nbsp;&nbsp;|---&nbsp;HTML-CSS template</option><option value="50" >&nbsp;&nbsp;&nbsp;|---&nbsp;Forum PHPBB, VBB</option><option value="14" >&nbsp;&nbsp;&nbsp;|---&nbsp;Flash template, Flash game</option><option value="48" >&nbsp;&nbsp;&nbsp;|---&nbsp;Php&amp;mySql</option><option value="15" >&nbsp;&nbsp;&nbsp;|---&nbsp;Javascript</option><option value="16" >&nbsp;&nbsp;&nbsp;|---&nbsp;ASP.NET Framework</option><option value="49" >&nbsp;&nbsp;&nbsp;|---&nbsp;Hotdeal Code</option><option value="58" >&nbsp;&nbsp;&nbsp;|---&nbsp;Laravel</option><option value="2" >Thiết kế đồ họa</option><option value="17" >&nbsp;&nbsp;&nbsp;|---&nbsp;Adobe Photoshop</option><option value="19" >&nbsp;&nbsp;&nbsp;|---&nbsp;Autodesk 3DS Max</option><option value="20" >&nbsp;&nbsp;&nbsp;|---&nbsp;CorelDRAW Graphics</option><option value="21" >&nbsp;&nbsp;&nbsp;|---&nbsp;Autodesk AutoCAD</option><option value="22" >&nbsp;&nbsp;&nbsp;|---&nbsp;Mathworks Matlab</option><option value="23" >&nbsp;&nbsp;&nbsp;|---&nbsp;Adobe Illustrator graphic</option><option value="24" >&nbsp;&nbsp;&nbsp;|---&nbsp;Adobe After Effects</option><option value="47" >&nbsp;&nbsp;&nbsp;|---&nbsp;Icons</option><option value="57" >&nbsp;&nbsp;&nbsp;|---&nbsp;Sketchup</option><option value="3" >Ứng dụng desktop</option><option value="25" >&nbsp;&nbsp;&nbsp;|---&nbsp;C &#x002F; C++ &#x002F; MFC</option><option value="26" >&nbsp;&nbsp;&nbsp;|---&nbsp;Visual studio &amp; .NET</option><option value="27" >&nbsp;&nbsp;&nbsp;|---&nbsp;Sharepoint</option><option value="28" >&nbsp;&nbsp;&nbsp;|---&nbsp;Visual Basic</option><option value="29" >&nbsp;&nbsp;&nbsp;|---&nbsp;Java Sun</option><option value="51" >&nbsp;&nbsp;&nbsp;|---&nbsp;MS Office</option><option value="4" >Ứng dụng mobile</option><option value="30" >&nbsp;&nbsp;&nbsp;|---&nbsp;Wap mobile</option><option value="31" >&nbsp;&nbsp;&nbsp;|---&nbsp;Java mobile</option><option value="32" >&nbsp;&nbsp;&nbsp;|---&nbsp;Android</option><option value="33" >&nbsp;&nbsp;&nbsp;|---&nbsp;Windows phone</option><option value="34" >&nbsp;&nbsp;&nbsp;|---&nbsp;iPhone OS</option><option value="39" >Tài liệu và Thủ thuật</option><option value="40" >&nbsp;&nbsp;&nbsp;|---&nbsp;Đồ án, luận văn, báo cáo</option><option value="45" >&nbsp;&nbsp;&nbsp;|---&nbsp;Tài liệu tham khảo</option><option value="44" >&nbsp;&nbsp;&nbsp;|---&nbsp;Ý tưởng thiết kế</option><option value="46" >&nbsp;&nbsp;&nbsp;|---&nbsp;Mẫu biểu - Hướng dẫn</option><option value="54" >&nbsp;&nbsp;&nbsp;|---&nbsp;Thủ thuật máy tính</option><option value="55" >&nbsp;&nbsp;&nbsp;|---&nbsp;Google Adsense</option><option value="56" >&nbsp;&nbsp;&nbsp;|---&nbsp;Thủ thuật SEO</option><option value="5" >Cơ sở dữ liệu</option><option value="35" >&nbsp;&nbsp;&nbsp;|---&nbsp;MySQL</option><option value="36" >&nbsp;&nbsp;&nbsp;|---&nbsp;Oracle</option><option value="37" >&nbsp;&nbsp;&nbsp;|---&nbsp;PostgreSQL</option><option value="38" >&nbsp;&nbsp;&nbsp;|---&nbsp;SQL Server</option><option value="6" >Công cụ phát triển</option><option value="7" >Hệ thống nhúng</option>
+            </select>
+            <select name="fieldSearch" id="freeFieldSearch">
+                <option value="0">Tất cả lĩnh vực</option>
+                <option value="17" >Bán hàng</option><option value="4" >Doanh nghiệp</option><option value="14" >Du lịch - Vé máy bay</option><option value="12" >Game - Giải trí</option><option value="11" >Gia đình - Xã hội</option><option value="9" >Giáo dục - Trường học</option><option value="16" >Kế toán</option><option value="19" >Khác</option><option value="13" >Khách sạn - Nhà hàng</option><option value="15" >Luật - Tư vấn</option><option value="7" >Máy tính - công nghệ</option><option value="1" >Môi trường - Thiên nhiên</option><option value="2" >Nghệ thuật - Nhiếp ảnh</option><option value="21" >Nhà đất, bất động sản</option><option value="18" >Nhân sự - Chấm công</option><option value="5" >Oto - xe máy</option><option value="10" selected="selected">Thiết kế nội thất - Xây dựng</option><option value="3" >Thời trang - Làm đẹp</option><option value="6" >Thông tin liên lạc</option><option value="8" >Thương mại điện tử</option><option value="20" >Tin tức - truyền thông</option><option value="22" >Tuyển dụng</option>
+            </select>
+            <select name="fieldMega" id="freeMegaSearch">
+                <option value="0">Tất cả File</option>
+                <option value="1" >Miễn phí MEGA tải</option><option value="2" >Có MEGA tải</option>
+            </select>
+            <select name="fieldSort" id="freeSortSearch">
+                <option value="0">Mặc định</option>
+                <option value="1" >File mới nhất</option><option value="2" >File cũ nhất</option><option value="3" >File tải nhiều nhất</option><option value="4" >File xem nhiều nhất</option><option value="5" >File Mega nhiều nhất</option><option value="6" >File Mega thấp nhất</option>
+            </select>
+            <input type="button" value="Tìm kiếm" class="fr" onclick="search_news()" />
+        </p>
+    </form>
+</div>
+
+
+        </div>
+<div class="wapfull">
+    <div class="clearfix" style="margin-top:10px">
+        <div class="cleft">
+			<div class="clear"></div>
+			<div class="clear"></div>
+            
+<script src="https://megacode.vn/js/SyntaxHighlighter/scripts/shCore.js" type="text/javascript"></script>
+<script src="https://megacode.vn/js/SyntaxHighlighter/scripts/shAutoloader.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="all" href="https://megacode.vn/js/SyntaxHighlighter/styles/shCore.css"></link>
+<link type="text/css" rel="stylesheet" media="all" href="https://megacode.vn/js/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script src="https://megacode.vn/js/ckeditor/ckeditor.js"></script>
+<link rel="stylesheet" href="https://megacode.vn/js/jrating/jRating.jquery.css" type="text/css" />
+<script type="text/javascript" src="https://megacode.vn/js/jrating/jRating.jquery.js"></script>
+<script src="https://megacode.vn/js/colorbox/jquery.colorbox.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://megacode.vn/js/colorbox/jquery.colorbox.css" type="text/css">
+<div class="ads_detail">
+    <h1>Jquery slide show chạy ảnh đẹp cho Web</h1>
+    <div>
+    	<div class="fl" style="margin-right:10px; margin-top:5px">
+		<div class="g-plusone" data-size="medium"></div>
+			<script type="text/javascript">
+              window.___gcfg = {lang: 'vi'};
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+        </div>
+        <div class="fl" style="margin-top:5px">
+			<div class="fb-like" data-href="https://megacode.vn/files/view/jquery-slide-show-chay-anh-dep-cho-web-1487.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="clearfix">
+        <p class="fl">
+            Xem: <strong>4050</strong> &nbsp;&nbsp;
+            Tải: <strong>23</strong>&nbsp;&nbsp;
+            Thảo luận: <strong>0</strong>&nbsp;&nbsp;
+            Mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>&nbsp;&nbsp;
+            Lĩnh vực: <a href="https://megacode.vn/files/field/thiet-ke-noi-that-xay-dung-10.html">Thiết kế nội thất - Xây dựng</a>
+        </p>
+    </div>
+    <div class="clearfix">
+    	<span class="point clearfix fl" data-average="0"></span>
+    	<span class="fl"><strong id="point_val" style="line-height:18px; margin-left:5px">0</strong> điểm &nbsp; ( 6 đánh giá )</span>
+        <span class="accept_check0 fl" style="margin-left:20px">File chưa kiểm thử</span>
+    </div>
+    <div style="margin:12px 0px">
+        <div style="color:#666;margin-bottom:5px" class="clearfix">
+			<div class="fl">
+                
+                <strong style="display:inline-block; padding:10px; background:#090; color:#FFF; font-size:10pt; float:left; margin-right:10px">Miễn Phí</strong>
+                
+                
+                
+                
+                <strong style="display:inline-block;">[megacode]jquery-slide-show-chay-anh-dep-cho.zip</strong> (392.36 KB)
+                <br><strong style="color:#090; font-size:14px;">Tải miễn phí</strong>
+                
+            </div>
+			
+            <span class="fr">
+            	<a href="http://megacode.vn/media/demo/nivo-slider3.2/" target="_blank" class="demo_default"><i class="fa fa-link" aria-hidden="true"></i> <span>Xem Demo</span></a>
+            </span>
+			
+        </div>
+        
+		
+        
+        <form action="" method="post" id="fdownload">
+			
+			
+		</form>
+        
+        <div style="clear:both"></div>
+
+		
+        
+        <p style="background:#FFECFF; padding:8px; line-height:22px; margin-top:10px">
+        Bạn cần phải <a href="https://megacode.vn/index.php?com=users&fun=login&nv_redirect=aHR0cHM6Ly9tZWdhY29kZS52bi9pbmRleC5waHA_bGFuZz12aSZhbXA7Y29tPWZpbGVzJmFtcDtmdW49dmlldy9qcXVlcnktc2xpZGUtc2hvdy1jaGF5LWFuaC1kZXAtY2hvLXdlYi0xNDg3"><strong>Đăng nhập</strong></a> để tải file <strong>[megacode]jquery-slide-show-chay-anh-dep-cho.zip</strong><br />
+        Nếu bạn chưa có tài khoản thì <a href="https://megacode.vn/users/register.html"><strong>Đăng ký miễn phí tại đây</strong></a>
+        </p>
+        
+    </div>   
+    
+    <p class="clearfix">
+        <a href="javascript:void(0)" onclick="showSendError(0)"><span class="link_error">Báo lỗi download</span></a>&nbsp;&nbsp;
+        <a href="javascript:void(0)" onclick="showSendError(1)"><span class="sec_error">Báo vi phạm bản quyền</span></a>
+    </p>
+	<p>Slide chạy ảnh đẹp luôn là những điểm nhấn trên 1 Website, blog. Slide đó bạn có thể trình bày những thông tin nổi bật như bài viết, quảng cáo, hình ảnh đẹp...1 hiệu ứng Slide đẹp cũng góp phần làm tô điểm thêm cái đẹp và sống động của trang Web. Ở bài viết hôm nay mình giới thiệu tới các bạn V2 của Slide Jquery chạy ảnh.</p>
+
+    <div id="error_content" style="display:none"><p>
+    	<p id="smg"></p>
+        <input type="hidden" name="type" value="0" id="errortype" />
+        <textarea name="content" id="errorcontent" style="width:494px;border:1px solid #CCC; font-family:Tahoma; font-size:8pt; padding:3px; margin-bottom:2px"></textarea>
+        <input type="button" onclick="SendError(1487)" value="Gửi thông báo"/>
+        <input type="button" onclick="CloseSendError()" value="Đóng"/></p>
+    </div>
+    
+    <div itemscope itemtype="http://schema.org/Article">
+        <div itemprop="articleBody">            
+            <div style="line-height:22px" >    
+                <div><div>Demo v&agrave; hướng dẫn m&igrave;nh sử dụng tr&ecirc;n nền Blogger, ở dạng Website c&aacute;c bạn l&agrave;m tương tự, d&aacute;n vị tr&iacute; code l&agrave; Javascript v&agrave; HTML l&agrave; OK. ^^</div>
+
+<div><a href="http://3.bp.blogspot.com/-kzdvwC8FyI8/UWNywXMmcZI/AAAAAAAAF8w/7ni5Xp6K6Bk/s1600/slide-chay-hinh-anh.JPG" style="border: 0px; color: rgb(37, 9, 243); list-style: none; margin: 0px 1em; padding: 0px; text-decoration: none;"><img alt="Jquery slide show chạy ảnh đẹp cho Web, blogspot, Jquery Slide show images for blogspot" src="http://3.bp.blogspot.com/-kzdvwC8FyI8/UWNywXMmcZI/AAAAAAAAF8w/7ni5Xp6K6Bk/s640/slide-chay-hinh-anh.JPG" style="border:0px; height:238px; list-style:none; margin:0px; padding:0px; width:640px" title="" /></a></div>
+</div>
+				
+                <div style="padding:10px 0;">
+                    
+                    <strong>Tags</strong>: <a href="https://megacode.vn/index.php?lang=vi&com=files&fun=search&amp;q=Jquery slide show">Jquery slide show</a>
+                    
+                </div>
+            </div> 
+        </div>
+    </div> 
+    <div class="mkol">
+    	<div itemscope itemtype="http://schema.org/Recipe">
+            <h4 itemprop="name">Jquery slide show chạy ảnh đẹp cho Web</h4>
+            <time datetime="2013-08-16T21:00-33:00">2013-08-16T21:00-33:00</time>
+            <img itemprop="image" src="https://megacode.vn/var/mfiles/files/banner_js_4b30e5b5a4a6d2f6d89050b43ced3e02.png" alt="Jquery slide show chạy ảnh đẹp cho Web">
+            <span><meta itemprop="datePublished" content="16-08-2013"/> Đăng ngày 16-08-2013&nbsp;</span>
+            <span>Slide chạy ảnh đẹp luôn là những điểm nhấn trên 1 Website, blog. Slide đó bạn có thể trình bày những thông tin nổi bật như bài viết, quảng cáo, hình ảnh đẹp...1 hiệu ứng Slide đẹp cũng góp phần làm tô điểm thêm cái đẹp và sống động của trang Web. Ở bài viết hôm nay mình giới thiệu tới các bạn V2 của Slide Jquery chạy ảnh.</span>
+            <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                <span itemprop="ratingValue">5</span>/<span itemprop="bestRating">10</span>
+                <span itemprop="reviewCount">4050</span>
+            </span>
+        </div>
+        <div style="clear:both"></div>
+	</div>
+    <div style="line-height:22px">    
+        <h4 style="padding-bottom:10px;">Thảo luận:</h4>
+        
+<style type="text/css">
+.clist p { padding:0; margin:0; }
+</style>
+<div class="clearfix">
+<ul class="clist clearfix" >
+    
+</ul> 
+<div class="pages" align="right"></div>
+</div>
+
+        
+        
+        <p style="color:#999">Để bình luận bạn phải đăng nhập thành viên.</p>
+        
+    </div>   
+</div>
+
+<div class="ads_list clearfix">
+	<div class="clearfix" style="margin-bottom:10px; border-bottom:2px solid #F0F0F0; padding-bottom:5px">
+    	<h1 class="fl" style="margin:0">File tương tự</h1>
+    </div>
+    <ul>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/code-website-cho-cong-tu-xay-dung-3922.html" class="hidden_img2" title="code website cho công tu xây dựng">
+            <img src="https://megacode.vn/var/mfiles/files/k1_e1fff0bc6da14010d2538ddae5ced590.png" alt="code website cho công tu xây dựng" border="0" name="https://megacode.vn/var/mfiles/files/k1_e1fff0bc6da14010d2538ddae5ced590.png" id="3922"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/code-website-cho-cong-tu-xay-dung-3922.html" title="code website cho công tu xây dựng" class="title_sale"><strong>code website cho công tu xây dựng</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>2651</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>45</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/thiet-ke-noi-that-xay-dung-10.html">Thiết kế nội thất - Xây dựng</a>
+        </div>
+		<div>
+            
+            <strong class="sub">FREE</strong> &nbsp;
+            
+            
+            
+			code php xây dựng website cho công ty xây dựng
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/full-code-nhom-kinh-sat-thep-inox-tuyet-dep-code-tay-3799.html" class="hidden_img2" title="Full code nhôm kính, sắt thép inox tuyệt đẹp (code tay)">
+            <img src="https://megacode.vn/var/mfiles/files/1_39450b30b8ca0bc8d847e6c6e326717b.png" alt="Full code nhôm kính, sắt thép inox tuyệt đẹp (code tay)" border="0" name="https://megacode.vn/var/mfiles/files/1_39450b30b8ca0bc8d847e6c6e326717b.png" id="3799"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/full-code-nhom-kinh-sat-thep-inox-tuyet-dep-code-tay-3799.html" title="Full code nhôm kính, sắt thép inox tuyệt đẹp (code tay)" class="title_sale"><strong>Full code nhôm kính, sắt thép inox tuyệt đẹp (code tay)</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>4771</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>278</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/thiet-ke-noi-that-xay-dung-10.html">Thiết kế nội thất - Xây dựng</a>
+        </div>
+		<div>
+            
+            <strong class="sub">FREE</strong> &nbsp;
+            
+            
+            
+			Full code nhôm kính, sắt thép, inox cho bạn nào cần được thiết kế bởi Trung Tâm Dịch Vụ Websites Hùng Cường. Các bạn chỉ...
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/web-noi-that-3375.html" class="hidden_img2" title="Web nội thất">
+            <img src="https://megacode.vn/var/mfiles/files/w9_5b5fdfde5e7fb2b2f00bbaa0f51d0199.png" alt="Web nội thất" border="0" name="https://megacode.vn/var/mfiles/files/w9_5b5fdfde5e7fb2b2f00bbaa0f51d0199.png" id="3375"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/web-noi-that-3375.html" title="Web nội thất" class="title_sale"><strong>Web nội thất</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>2478</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>131</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/thiet-ke-noi-that-xay-dung-10.html">Thiết kế nội thất - Xây dựng</a>
+        </div>
+		<div>
+            
+            <strong class="sub">FREE</strong> &nbsp;
+            
+            
+            
+			Web nội thất làm bằng PHP
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/full-code-thep-hinh-mien-bac-dep-mat-bang-php-2770.html" class="hidden_img2" title="Full code thép hình miền bắc đẹp mắt bằng PHP">
+            <img src="https://megacode.vn/var/mfiles/files/megacode.vn-thephinh_a380305b735b873c09ac6c80fabbd2b7.jpg" alt="Full code thép hình miền bắc đẹp mắt bằng PHP" border="0" name="https://megacode.vn/var/mfiles/files/megacode.vn-thephinh_a380305b735b873c09ac6c80fabbd2b7.jpg" id="2770"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/full-code-thep-hinh-mien-bac-dep-mat-bang-php-2770.html" title="Full code thép hình miền bắc đẹp mắt bằng PHP" class="title_sale"><strong>Full code thép hình miền bắc đẹp mắt bằng PHP</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>2402</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>5</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/thiet-ke-noi-that-xay-dung-10.html">Thiết kế nội thất - Xây dựng</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">25 mega</strong> &nbsp;
+            
+            
+			Full code thép hình miền bắc đẹp mắt bằng PHP code tay dễ chỉnh sửa.
+		</div>
+    </li>
+    
+    </ul>
+    <div class="pages" align="right"></div>
+</div>
+
+
+<div class="ads_list clearfix">
+	<div class="clearfix" style="margin-bottom:10px; border-bottom:2px solid #F0F0F0; padding-bottom:5px">
+    	<h1 class="fl" style="margin:0">Files cùng mục</h1>
+    </div>
+    <ul>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/code-web-xem-anime-cho-fansub-php-mysql-9540.html" class="hidden_img2" title="Code web xem anime cho fansub PHP/MySQL">
+            <img src="https://megacode.vn/var/mfiles/files/code-web-xem-anime-cho-fansub-191815_d4041f2b477bad02079b7878b7c5a393.jpg" alt="Code web xem anime cho fansub PHP/MySQL" border="0" name="https://megacode.vn/var/mfiles/files/code-web-xem-anime-cho-fansub-191815_d4041f2b477bad02079b7878b7c5a393.jpg" id="9540"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/code-web-xem-anime-cho-fansub-php-mysql-9540.html" title="Code web xem anime cho fansub PHP/MySQL" class="title_sale"><strong>Code web xem anime cho fansub PHP/MySQL</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>329</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>0</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/game-giai-tri-12.html">Game - Giải trí</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">10 mega</strong> &nbsp;
+            
+            
+			Zuta Fansub do chính mình là leader, nhưng mà do có 1 số lý do cho nên team ngừng hoạt động, vì code giờ cũng chả biết...
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/project-web-he-thong-quan-ly-danh-muc-menu-cho-cua-hang-do-an-va-nha-hang-nho-9527.html" class="hidden_img2" title="Project web hệ thống quản lý danh mục menu cho cửa hàng đồ ăn và nhà hàng nhỏ, xây dựng bằng Laravel">
+            <img src="https://megacode.vn/var/mfiles/files/31_13cbf81a36865e1776d0196a1832284b.png" alt="Project web hệ thống quản lý danh mục menu cho cửa hàng đồ ăn và nhà hàng nhỏ, xây dựng bằng Laravel" border="0" name="https://megacode.vn/var/mfiles/files/31_13cbf81a36865e1776d0196a1832284b.png" id="9527"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/project-web-he-thong-quan-ly-danh-muc-menu-cho-cua-hang-do-an-va-nha-hang-nho-9527.html" title="Project web hệ thống quản lý danh mục menu cho cửa hàng đồ ăn và nhà hàng nhỏ, xây dựng bằng Laravel" class="title_sale"><strong>Project web hệ thống quản lý danh mục menu cho cửa hàng đồ ăn và nhà hàng nhỏ, xây dựng bằng Laravel</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>662</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>1</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/khach-san-nha-hang-13.html">Khách sạn - Nhà hàng</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">5 mega</strong> &nbsp;
+            
+            
+			Restaurant Foodie là một ứng dụng web nhằm phục vụ nhu cầu quản lý danh mục sản phẩm thức ăn (menu) trong các nhà hàng...
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/cau-truc-website-php-don-gian-9524.html" class="hidden_img2" title="Cấu trúc website PHP đơn giản">
+            <img src="https://megacode.vn/media/files/new2015/2020_10/cau-truc-website-php-don-gian-91057.jpg" alt="Cấu trúc website PHP đơn giản" border="0" name="https://megacode.vn/media/files/new2015/2020_10/cau-truc-website-php-don-gian-91057.jpg" id="9524"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/cau-truc-website-php-don-gian-9524.html" title="Cấu trúc website PHP đơn giản" class="title_sale"><strong>Cấu trúc website PHP đơn giản</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>550</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>1</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/khac-19.html">Khác</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">5 mega</strong> &nbsp;
+            
+            
+			Source code website PHP đơn giản - dễ tìm hiểu - dành cho người mới học
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/code-tham-khao-upload-resize-anh-bang-ajax-jquery-php-9521.html" class="hidden_img2" title="Code tham khảo Upload & Resize ảnh bằng Ajax jquery php">
+            <img src="https://megacode.vn/var/mfiles/files/code-tham-khao-upload-resize-anh-bang-ajax-jquery-php-0818_60124031b660cb927a6b7be536c71011.jpg" alt="Code tham khảo Upload & Resize ảnh bằng Ajax jquery php" border="0" name="https://megacode.vn/var/mfiles/files/code-tham-khao-upload-resize-anh-bang-ajax-jquery-php-0818_60124031b660cb927a6b7be536c71011.jpg" id="9521"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/code-tham-khao-upload-resize-anh-bang-ajax-jquery-php-9521.html" title="Code tham khảo Upload & Resize ảnh bằng Ajax jquery php" class="title_sale"><strong>Code tham khảo Upload & Resize ảnh bằng Ajax jquery php</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>185</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>0</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/game-giai-tri-12.html">Game - Giải trí</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">3 mega</strong> &nbsp;
+            
+            
+			Đoạn code tham khảo dành cho những bạn tập tành lập trình giải quyết vấn đề upload và resize file ảnh. Một vấn đề nhỏ...
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/chia-se-bo-code-chuan-dien-dan-xenforo-moi-nhat-9518.html" class="hidden_img2" title="Chia sẻ bộ code chuẩn diễn đàn XenForo mới nhất">
+            <img src="https://megacode.vn/var/mfiles/files/dienan1_ecf6b2ebd2edb9c35f6f255e70151cb9.png" alt="Chia sẻ bộ code chuẩn diễn đàn XenForo mới nhất" border="0" name="https://megacode.vn/var/mfiles/files/dienan1_ecf6b2ebd2edb9c35f6f255e70151cb9.png" id="9518"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/chia-se-bo-code-chuan-dien-dan-xenforo-moi-nhat-9518.html" title="Chia sẻ bộ code chuẩn diễn đàn XenForo mới nhất" class="title_sale"><strong>Chia sẻ bộ code chuẩn diễn đàn XenForo mới nhất</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>271</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>0</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/khac-19.html">Khác</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">250 mega</strong> &nbsp;
+            
+            
+			Code đầy đủ tính năng, đã được việt hóa, mod các tính năng cần thiết để phù hợp với nhu cầu sử dụng.
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/chia-se-code-tool-gui-mail-voi-phpmailer-9498.html" class="hidden_img2" title="Chia sẻ code Tool gửi mail với PHPMailer">
+            <img src="https://megacode.vn/var/mfiles/files/email-ten_568c4b260ac344c6a06e61a18e8dbbc4.jpg" alt="Chia sẻ code Tool gửi mail với PHPMailer" border="0" name="https://megacode.vn/var/mfiles/files/email-ten_568c4b260ac344c6a06e61a18e8dbbc4.jpg" id="9498"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/chia-se-code-tool-gui-mail-voi-phpmailer-9498.html" title="Chia sẻ code Tool gửi mail với PHPMailer" class="title_sale"><strong>Chia sẻ code Tool gửi mail với PHPMailer</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>472</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>0</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/khac-19.html">Khác</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">3 mega</strong> &nbsp;
+            
+            
+			Code ví dụ về sử dụng PHPMailer để gửi email. Hoạt động được trên local host và hosting online.
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/code-website-ban-dien-thoai-di-dong-bang-php-9481.html" class="hidden_img2" title="Code website bán điện thoại di động bằng PHP">
+            <img src="https://megacode.vn/var/mfiles/files/1_8939106024cf53ef413d34c6e6567cab.png" alt="Code website bán điện thoại di động bằng PHP" border="0" name="https://megacode.vn/var/mfiles/files/1_8939106024cf53ef413d34c6e6567cab.png" id="9481"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/code-website-ban-dien-thoai-di-dong-bang-php-9481.html" title="Code website bán điện thoại di động bằng PHP" class="title_sale"><strong>Code website bán điện thoại di động bằng PHP</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>1489</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>166</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/ban-hang-17.html">Bán hàng</a>
+        </div>
+		<div>
+            
+            <strong class="sub">FREE</strong> &nbsp;
+            
+            
+            
+			- Code hoạt động như demo, Lỗi đường dẫn quản trị nếu sử dụng Xampp PHP >5.6 Dùng tham khảo và tự nghiên cứu fix lỗi.
+		</div>
+    </li>
+    
+    <li class="clearfix">
+        <a href="https://megacode.vn/files/view/code-php-lay-noi-dung-cua-google-search-9370.html" class="hidden_img2" title="Code PHP: lấy nội dung của google search">
+            <img src="https://megacode.vn/var/mfiles/files/get_result_google_cb8e481858e9fa54dd53513660a7f6ec.png" alt="Code PHP: lấy nội dung của google search" border="0" name="https://megacode.vn/var/mfiles/files/get_result_google_cb8e481858e9fa54dd53513660a7f6ec.png" id="9370"/>
+        </a>
+		<h3><a href="https://megacode.vn/files/view/code-php-lay-noi-dung-cua-google-search-9370.html" title="Code PHP: lấy nội dung của google search" class="title_sale"><strong>Code PHP: lấy nội dung của google search</strong></a></h3>
+        <div style="margin-bottom:5px; line-height:18px;">
+            Chuyên mục: <a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a>
+        </div>
+		<div style="margin-bottom:8px;">
+            Lượt xem: <strong>1386</strong> &nbsp;&nbsp;
+            Lượt tải file: <strong>1</strong>&nbsp;&nbsp;
+			Lĩnh vực: <a href="https://megacode.vn/files/field/khac-19.html">Khác</a>
+        </div>
+		<div>
+            
+            
+            <strong class="suby">5 mega</strong> &nbsp;
+            
+            
+			Làm thế nào để có thể lấy được kết quả hiển thị của google search và hiển thị trên website của mình. Code PHP này có thể...
+		</div>
+    </li>
+    
+    </ul>
+    <div class="pages" align="right"></div>
+</div>
+
+<script>
+	CKEDITOR.replace( 'txtcm',
+	{	language: 'vi',
+		width: '100%', height: '90px',
+		toolbar :
+		[
+			{ name: 'styles', items : [ 'TextColor','BGColor','Syntaxhighlight','Smiley','Bold','Italic','Strike','-','Link','Unlink' ] }
+		]
+	});
+</script>
+<script type="text/javascript">
+$(".group4").colorbox({rel:'group4', transition:"fade", fixed: true, maxHeight:'90%', maxWidth:'90%'});
+$(document).ready(function(){
+	$(".point").jRating({
+	  bigStarsPath : 'https://megacode.vn/js/jrating/icons/stars.png',
+	  smallStarsPath : 'https://megacode.vn/js/jrating/icons/small.png',
+	  phpPath : 'https://megacode.vn/index.php?lang=vi&com=files&fun=rate&id=1487&ck=6d3a1e06d6a06349436bc054313b648c',
+	  rateMax: 10,
+	  onSuccess : function(response){
+	    alert(response.message);
+		if ( response.enable == false )
+		{ var point_val = Number( $('#point_val').html() );
+		point_val = point_val + Number(response.rate);
+		$('#point_val').html(point_val);}
+	  }
+    });
+});
+function submit_down() { $('#fdownload').submit(); }
+</script>
+<script src="https://megacode.vn/js/load_syntaxhighlighter.js" type="text/javascript"></script>
+<script type="text/javascript">SyntaxHighlighter.all()</script>
+&nbsp;
+			<div class="clear"></div>
+        </div>
+        <div class="cright">
+		   <div class="block_default">	<div class="block_default_header"><span>File gợi ý cho bạn</span></div>	<div class="block_default_content">		
+<ul class="block_new clearfix">
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/cach-tranh-loi-duplicate-content-1618.html"  title="Cách tránh lỗi &quot;Duplicate Content&quot;"><strong style="font-size:14px">Cách tránh lỗi &quot;Duplicate Content&quot;</strong></a>
+    </p> 	<p style="">		<span class="sub">1045 lượt xem </span>		<span class="suby">0 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/mau-bieu-huong-dan.html">Mẫu biểu - Hướng dẫn</a>
+    </p> 
+    <p style="color:#666">"Duplicate Content" là một trong những lỗi mà nhiều Webmaster mắc phải...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/cach-ve-chibi-tu-hinh-that-bang-photoshop-694.html"  title="Cách vẽ chibi từ hình thật bằng photoshop"><strong style="font-size:14px">Cách vẽ chibi từ hình thật bằng photoshop</strong></a>
+    </p> 	<p style="">		<span class="sub">4726 lượt xem </span>		<span class="suby">0 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/adobe-photoshop.html">Adobe Photoshop</a>
+    </p> 
+    <p style="color:#666">Vẽ Chibi là phong trào rất hot hiện nay trên cộng đồng mạng facebook...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/giao-trinh-bai-tap-ky-thuat-lap-trinh-1118.html"  title="Giáo trình - Bài tập kỹ thuật lập trình"><strong style="font-size:14px">Giáo trình - Bài tập kỹ thuật lập trình</strong></a>
+    </p> 	<p style="">		<span class="sub">960 lượt xem </span>		<span class="suby">0 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+    </p> 
+    <p style="color:#666">Khi mới bắt đầu làm quen với ngôn ngữ lập trình - Cụ thể là ngôn ngữ C...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/tai-lieu-hoc-joomla-tieng-viet-1351.html"  title="Tài liệu học Joomla - tiếng việt"><strong style="font-size:14px">Tài liệu học Joomla - tiếng việt</strong></a>
+    </p> 	<p style="">		<span class="sub">2153 lượt xem </span>		<span class="suby">4 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/mau-bieu-huong-dan.html">Mẫu biểu - Hướng dẫn</a>
+    </p> 
+    <p style="color:#666">Tài liệu tham khảo thiết kế website bằng joomla, chia sẻ để anh em yêu...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/bo-giao-trinh-an-ninh-bao-mat-mang-toan-tap-7344.html"  title="Bộ giáo trình an ninh bảo mật mạng toàn tập"><strong style="font-size:14px">Bộ giáo trình an ninh bảo mật mạng toàn tập</strong></a>
+    </p> 	<p style="">		<span class="sub">1247 lượt xem </span>		<span class="suby">9 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+    </p> 
+    <p style="color:#666">Là tài liệu đào tạo về An toàn thông tin cho các cán bộ vận hành và...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/xay-dung-thu-vien-so-su-dung-phan-mem-ma-nguon-mo-dspace-4146.html"  title="Xây dựng thư viện số sử dụng phần mềm mã nguồn mở Dspace"><strong style="font-size:14px">Xây dựng thư viện số sử dụng phần mềm mã nguồn mở Dspace</strong></a>
+    </p> 	<p style="">		<span class="sub">2040 lượt xem </span>		<span class="suby">1 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/do-an-luan-van-bao-cao.html">Đồ án, luận văn, báo cáo</a>
+    </p> 
+    <p style="color:#666">Open source software là những phần mềm được viết và cung cấp một cách...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/tai-lieu-hoc-dreamweaver-cua-fpt-aptech-1162.html"  title="Tài liệu học DreamWeaver của FPT - Aptech"><strong style="font-size:14px">Tài liệu học DreamWeaver của FPT - Aptech</strong></a>
+    </p> 	<p style="">		<span class="sub">3898 lượt xem </span>		<span class="suby">43 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+    </p> 
+    <p style="color:#666">Tài liệu hướng dẫn xây dựng ứng dụng web với Macromedia DreamWeaver MX...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/bai-tap-prolog-2271.html"  title="Bài Tập Prolog"><strong style="font-size:14px">Bài Tập Prolog</strong></a>
+    </p> 	<p style="">		<span class="sub">5317 lượt xem </span>		<span class="suby">64 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+    </p> 
+    <p style="color:#666">Bài Tập Prolog Vị từ (predicate) - Tư duy lập trình và định nghĩa vấn...</p>   
+</li>
+
+<li class="clearfix">	
+    <p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/tai-lieu-html-dom-voi-javascript-full-8210.html"  title="Tài liệu HTML DOM Với  JAVASCRIPT Full"><strong style="font-size:14px">Tài liệu HTML DOM Với  JAVASCRIPT Full</strong></a>
+    </p> 	<p style="">		<span class="sub">885 lượt xem </span>		<span class="suby">10 lượt tải </span>	</p>
+    <p>
+        Mục: <a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a>
+    </p> 
+    <p style="color:#666">Giới thiệu về HTML DOM, các thuộc tính và phương thức của nó cùng với...</p>   
+</li>
+</ul>
+	</div></div><div class="clear"></div>
+		   <div class="block_default">	<div class="block_default_header"><span>&#42; Tag nổi bật</span></div>	<div class="block_default_content">		
+<div class="block_tag clearfix">
+    
+    <a href="https://megacode.vn/files/tag/giao-duc-1.html" title="giáo dục" class="keytag2">giáo dục</a>
+    
+    <a href="https://megacode.vn/files/tag/mau-bia-lam-bao-cao-7.html" title="mẫu bìa làm báo cáo" class="keytag3">mẫu bìa làm báo cáo</a>
+    
+    <a href="https://megacode.vn/files/tag/ky-nang-mem-8.html" title="kỹ năng mềm" class="keytag2">kỹ năng mềm</a>
+    
+    <a href="https://megacode.vn/files/tag/cong-nghe-thong-tin-16.html" title="công nghệ thông tin" class="keytag2">công nghệ thông tin</a>
+    
+    <a href="https://megacode.vn/files/tag/mang-may-tinh-18.html" title="mạng máy tính" class="keytag0">mạng máy tính</a>
+    
+    <a href="https://megacode.vn/files/tag/dien-hoa-19.html" title="điện hoa" class="keytag2">điện hoa</a>
+    
+    <a href="https://megacode.vn/files/tag/hot-deal-21.html" title="hot deal" class="keytag4">hot deal</a>
+    
+    <a href="https://megacode.vn/files/tag/do-an-22.html" title="Đồ án" class="keytag3">Đồ án</a>
+    
+    <a href="https://megacode.vn/files/tag/template-23.html" title="template" class="keytag3">template</a>
+    
+    <a href="https://megacode.vn/files/tag/theme-24.html" title="theme" class="keytag3">theme</a>
+    
+    <a href="https://megacode.vn/files/tag/ung-dung-25.html" title="ứng dụng" class="keytag1">ứng dụng</a>
+    
+    <a href="https://megacode.vn/files/tag/web-26.html" title="web" class="keytag3">web</a>
+    
+    <a href="https://megacode.vn/files/tag/hieu-ung-27.html" title="hiệu ứng" class="keytag4">hiệu ứng</a>
+    
+    <a href="https://megacode.vn/files/tag/tai-lieu-28.html" title="tài liệu" class="keytag1">tài liệu</a>
+    
+    <a href="https://megacode.vn/files/tag/code-shop-29.html" title="code shop" class="keytag1">code shop</a>
+    
+    <a href="https://megacode.vn/files/tag/phan-mem-30.html" title="phần mềm" class="keytag5">phần mềm</a>
+    
+    <a href="https://megacode.vn/files/tag/do-hoa-31.html" title="đồ họa" class="keytag3">đồ họa</a>
+    
+    <a href="https://megacode.vn/files/tag/mobile-32.html" title="mobile" class="keytag0">mobile</a>
+    
+    <a href="https://megacode.vn/files/tag/cong-cu-33.html" title="công cụ" class="keytag1">công cụ</a>
+    
+    <a href="https://megacode.vn/files/tag/photoshop-34.html" title="photoshop" class="keytag1">photoshop</a>
+    
+    <a href="https://megacode.vn/files/tag/corel-draw-35.html" title="corel draw" class="keytag0">corel draw</a>
+    
+    <a href="https://megacode.vn/files/tag/ma-nguon-36.html" title="mã nguồn" class="keytag5">mã nguồn</a>
+    
+    <a href="https://megacode.vn/files/tag/menu-37.html" title="menu" class="keytag2">menu</a>
+    
+    <a href="https://megacode.vn/files/tag/nha-dat-38.html" title="nhà đất" class="keytag2">nhà đất</a>
+    
+    <a href="https://megacode.vn/files/tag/ban-hang-39.html" title="bán hàng" class="keytag1">bán hàng</a>
+    
+    <a href="https://megacode.vn/files/tag/may-tinh-40.html" title="máy tính" class="keytag3">máy tính</a>
+    
+    <a href="https://megacode.vn/files/tag/du-lich-41.html" title="du lịch" class="keytag0">du lịch</a>
+    
+    <a href="https://megacode.vn/files/tag/tin-tuc-42.html" title="tin tức" class="keytag1">tin tức</a>
+    
+</div>  
+	</div></div><div class="clear"></div>
+		   <div class="block_default_no">
+	<div class="block_default_no_header" style="font-size:16px;"><span>File tải nhiều nhất</span></div>
+	<div class="block_default_no_content">
+		<ul class="block_new clearfix">
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/code-rut-ngan-lien-ket-cho-web-va-blog-505.html" title="Code rút ngắn liên kết cho web và blog" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/code-rut-gon-url_3625a612407d7952219006a599812460.jpg" alt="Code rút ngắn liên kết cho web và blog"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/code-rut-ngan-lien-ket-cho-web-va-blog-505.html"  title="Code rút ngắn liên kết cho web và blog"><strong style="font-size:13px">Code rút ngắn liên kết cho web và blog</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/php-mysql.html">Php&amp;mySql</a> - <span class="keyw">920 view</span> Code rút ngắn liên kết cho web và blog</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/huong-dan-lam-logo-nike-dep-an-tuong-duoc-lam-tu-css3-6718.html" title="Hướng dẫn làm Logo Nike đẹp ấn tượng được làm từ CSS3" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/logo-nike-dep-an-tuong-duoc-lam-tu-css3_c2d5937bd14a6a025025f8af4c5f194a.jpg" alt="Hướng dẫn làm Logo Nike đẹp ấn tượng được làm từ CSS3"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/huong-dan-lam-logo-nike-dep-an-tuong-duoc-lam-tu-css3-6718.html"  title="Hướng dẫn làm Logo Nike đẹp ấn tượng được làm từ CSS3"><strong style="font-size:13px">Hướng dẫn làm Logo Nike đẹp ấn tượng được làm từ CSS3</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/html-css-template.html">HTML-CSS template</a> - <span class="keyw">1433 view</span> Nhằm tiếp tục mang đến cho các bạn những mẫu logo được làm từ CSS3,...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/code-gioi-thieu-may-tinh-dep-mat-theme-vinagon-43.html" title="Code giới thiệu máy tính đẹp mắt - theme vinagon" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/81_ff9153b68b577a10f4fb227b0a611056.png" alt="Code giới thiệu máy tính đẹp mắt - theme vinagon"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/code-gioi-thieu-may-tinh-dep-mat-theme-vinagon-43.html"  title="Code giới thiệu máy tính đẹp mắt - theme vinagon"><strong style="font-size:13px">Code giới thiệu máy tính đẹp mắt - theme vinagon</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/nukeviet-template.html">Nukeviet template</a> - <span class="keyw">14430 view</span> Thiết kế với giao diện đẹp mắt, bố cục hài hoà !  các modul Home, ...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/code-c-phan-mem-quan-li-con-cai-tinh-nang-da-dang-9395.html" title="Code C# phần mềm quản lí con cái tính năng đa dạng" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/code_08bc088037510c77aa1c4bebb19457ef.png" alt="Code C# phần mềm quản lí con cái tính năng đa dạng"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/code-c-phan-mem-quan-li-con-cai-tinh-nang-da-dang-9395.html"  title="Code C# phần mềm quản lí con cái tính năng đa dạng"><strong style="font-size:13px">Code C# phần mềm quản lí con cái tính năng đa dạng</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/visual-studio-net.html">Visual studio &amp; .NET</a> - <span class="keyw">644 view</span> Phần mềm viết bằng c#. Ứng dụng nhiều thư viện. Thích hợp để phát...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/top-4-cach-su-dung-google-analytics-ban-nen-biet-6953.html" title="Top 4 cách sử dụng google analytics bạn nên biết" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/google-analytics_0dcdb49e6d7c5ef5a4da3df50009f08d.jpg" alt="Top 4 cách sử dụng google analytics bạn nên biết"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/top-4-cach-su-dung-google-analytics-ban-nen-biet-6953.html"  title="Top 4 cách sử dụng google analytics bạn nên biết"><strong style="font-size:13px">Top 4 cách sử dụng google analytics bạn nên biết</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/mau-bieu-huong-dan.html">Mẫu biểu - Hướng dẫn</a> - <span class="keyw">851 view</span> Nắm vững google analytics cũng là một trong những thủ thuật mà một...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/tai-lieu-tham-khao-ve-quan-ly-du-an-cong-nghe-thong-tin-2824.html" title="Tài liệu tham khảo về Quản lý dự án Công nghệ thông tin" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/quanlycntt_bef3a674771deb847c54319bd4f56c30.jpg" alt="Tài liệu tham khảo về Quản lý dự án Công nghệ thông tin"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/tai-lieu-tham-khao-ve-quan-ly-du-an-cong-nghe-thong-tin-2824.html"  title="Tài liệu tham khảo về Quản lý dự án Công nghệ thông tin"><strong style="font-size:13px">Tài liệu tham khảo về Quản lý dự án Công nghệ thông tin</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a> - <span class="keyw">1472 view</span> Dự án là một hoạt động tạo ra - một cách có phương pháp và định tiến,...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/full-code-truong-mam-non-dep-mat-bang-joomla-3165.html" title="Full code trường mầm non đẹp mắt bằng Joomla" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/2011-11-20_021417_5b58faccf1267757981544f559e80eb7.jpg" alt="Full code trường mầm non đẹp mắt bằng Joomla"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/full-code-truong-mam-non-dep-mat-bang-joomla-3165.html"  title="Full code trường mầm non đẹp mắt bằng Joomla"><strong style="font-size:13px">Full code trường mầm non đẹp mắt bằng Joomla</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/joomla-template.html">Joomla template</a> - <span class="keyw">5969 view</span> Full code trường mầm non đẹp mắt bằng JoomlaFull code trường mầm non...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/tai-lieu-he-quan-tri-co-so-du-lieu-quan-he-full-8040.html" title="Tài liệu hệ quản trị cơ sở dữ liệu quan hệ Full" class="hidden_img">
+        <img src="https://megacode.vn/media/files/3_4/bai-giang-co-so-du-lieu-chuong-4-dai-so-quan-he-va_y62g1fxgln.jpg" alt="Tài liệu hệ quản trị cơ sở dữ liệu quan hệ Full"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/tai-lieu-he-quan-tri-co-so-du-lieu-quan-he-full-8040.html"  title="Tài liệu hệ quản trị cơ sở dữ liệu quan hệ Full"><strong style="font-size:13px">Tài liệu hệ quản trị cơ sở dữ liệu quan hệ Full</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a> - <span class="keyw">809 view</span> Tài liệu hệ quản trị cơ sở dữ liệu quan hệ nhằm giúp bạn nắm bắt các...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/giao-trinh-he-dieu-hanh-unix-va-linux-full-7959.html" title="Giáo trình hệ điều hành Unix và Linux Full" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/gf_e220cf0b6999fbb00f98ba3b8b24ac73.png" alt="Giáo trình hệ điều hành Unix và Linux Full"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/giao-trinh-he-dieu-hanh-unix-va-linux-full-7959.html"  title="Giáo trình hệ điều hành Unix và Linux Full"><strong style="font-size:13px">Giáo trình hệ điều hành Unix và Linux Full</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a> - <span class="keyw">1377 view</span> Hệ điều hành là một phần mềm chạy trên máy tính, dùng để điều hành,...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/full-code-gioi-thieu-cac-tour-du-lich-mua-he-vinagon-5916.html" title="Full code giới thiệu các tour du lịch mùa hè vinagon" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/joomlavinagon_vina_travel_9a2b55e8c63174a0f0a7244f7fa46bd9.jpg" alt="Full code giới thiệu các tour du lịch mùa hè vinagon"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/full-code-gioi-thieu-cac-tour-du-lich-mua-he-vinagon-5916.html"  title="Full code giới thiệu các tour du lịch mùa hè vinagon"><strong style="font-size:13px">Full code giới thiệu các tour du lịch mùa hè vinagon</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/joomla-template.html">Joomla template</a> - <span class="keyw">3858 view</span> Full code giới thiệu các tour du lịch mùa hè vinagon bằng joomla đẹp...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/huong-dan-tao-hieu-ung-dom-lua-bang-html5-canvas-va-javascript-6867.html" title="Hướng dẫn tạo hiệu ứng đốm lửa bằng HTML5 Canvas và Javascript" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/tao-hieu-ung-dom-lua-bang-html5-canvas-va-javascript_8866fd2b8042f475da422a719f22c1ff.jpg" alt="Hướng dẫn tạo hiệu ứng đốm lửa bằng HTML5 Canvas và Javascript"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/huong-dan-tao-hieu-ung-dom-lua-bang-html5-canvas-va-javascript-6867.html"  title="Hướng dẫn tạo hiệu ứng đốm lửa bằng HTML5 Canvas và Javascript"><strong style="font-size:13px">Hướng dẫn tạo hiệu ứng đốm lửa bằng HTML5 Canvas và Javascript</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/javascript.html">Javascript</a> - <span class="keyw">2194 view</span> Tuần trước mình đã giới thiệu tới các bạn bài viết Tạo biểu đồ Gauge...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/huong-dan-lam-nut-buttons-download-3d-voi-css3-6816.html" title="Hướng dẫn làm nút  Buttons Download 3D Với CSS3" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/chunky-3d-web-buttons-the-css3-version_06acd68dc30efde03e28fc0cf423611b.jpg" alt="Hướng dẫn làm nút  Buttons Download 3D Với CSS3"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/huong-dan-lam-nut-buttons-download-3d-voi-css3-6816.html"  title="Hướng dẫn làm nút  Buttons Download 3D Với CSS3"><strong style="font-size:13px">Hướng dẫn làm nút  Buttons Download 3D Với CSS3</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/html-css-template.html">HTML-CSS template</a> - <span class="keyw">1273 view</span> Hôm nay mình sẽ tiếp tục chia sẻ các đoạn css giúp các bạn tạo ra các...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/giao-trinh-quan-tri-tri-mang-va-thiet-bi-mang-7881.html" title="Giáo trình quản trị trị mạng và thiết bị mạng" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/capture_3_03478ec8042d855060699d8f465972d9.png" alt="Giáo trình quản trị trị mạng và thiết bị mạng"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/giao-trinh-quan-tri-tri-mang-va-thiet-bi-mang-7881.html"  title="Giáo trình quản trị trị mạng và thiết bị mạng"><strong style="font-size:13px">Giáo trình quản trị trị mạng và thiết bị mạng</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/tai-lieu-tham-khao.html">Tài liệu tham khảo</a> - <span class="keyw">1028 view</span> Giáo trình quản trị mạng và các thiết bị mạng được biên soạn nhằm cung...</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/menu-truy-cap-nhanh-679.html" title="Menu truy cập nhanh" class="hidden_img">
+        <img src="https://megacode.vn/media/files/images/hoanglongvnpt/menu.png" alt="Menu truy cập nhanh"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/menu-truy-cap-nhanh-679.html"  title="Menu truy cập nhanh"><strong style="font-size:13px">Menu truy cập nhanh</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/html-css-template.html">HTML-CSS template</a> - <span class="keyw">862 view</span> Menu truy cập nhanh</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/phan-mem-cai-dat-pass-cho-file-kruptos-2-813.html" title="Phần mềm cài đặt pass cho File Kruptos 2" class="hidden_img">
+        <img src="https://megacode.vn/media/files/2013_07/1374552686.jpg" alt="Phần mềm cài đặt pass cho File Kruptos 2"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/phan-mem-cai-dat-pass-cho-file-kruptos-2-813.html"  title="Phần mềm cài đặt pass cho File Kruptos 2"><strong style="font-size:13px">Phần mềm cài đặt pass cho File Kruptos 2</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/cong-cu-phat-trien.html">Công cụ phát triển</a> - <span class="keyw">1388 view</span> Cái này ko can key như nhiều phần mềm khác, dễ sử dụng</p>   
+</li>
+<li class="clearfix">
+    <a href="https://megacode.vn/files/view/luan-van-tot-nghiep-nghien-cuu-tim-hieu-cac-cong-nghe-trong-viec-phat-trien-nha-8648.html" title="Luận văn tốt nghiệp nghiên cứu tìm hiểu các công nghệ trong việc phát triển nhà thông minh (Full báo cáo )" class="hidden_img">
+        <img src="https://megacode.vn/var/mfiles/files/bichthuy_c1a65ff544069e542e3cb906e907b8cc.png" alt="Luận văn tốt nghiệp nghiên cứu tìm hiểu các công nghệ trong việc phát triển nhà thông minh (Full báo cáo )"/>
+    </a> 
+	<p style="margin-bottom:5px">
+        <a href="https://megacode.vn/files/view/luan-van-tot-nghiep-nghien-cuu-tim-hieu-cac-cong-nghe-trong-viec-phat-trien-nha-8648.html"  title="Luận văn tốt nghiệp nghiên cứu tìm hiểu các công nghệ trong việc phát triển nhà thông minh (Full báo cáo )"><strong style="font-size:13px">Luận văn tốt nghiệp nghiên cứu tìm hiểu các công nghệ trong việc phát triển nhà thông minh (Full báo cáo )</strong></a>
+    </p> 
+    <p style="color:#666"><a href="https://megacode.vn/files/do-an-luan-van-bao-cao.html">Đồ án, luận văn, báo cáo</a> - <span class="keyw">941 view</span> Công nghệ thông tin là một ngành đem lại cho cuộc sống con người nhiều...</p>   
+</li>
+</ul>
+	</div>
+</div>
+<div class="block_default">	<div class="block_default_header"><span>Tin nổi bật</span></div>	<div class="block_default_content">		<ul class="vertical-menu">
+        	<li>
+			<a title="Nhiên liệu hóa thạch trên thế giới có thể được loại bỏ dần trong một thập kỷ" href="https://megacode.vn/news/tin-tuc-cong-nghe/nhien-lieu-hoa-thach-tren-the-gioi-co-the-duoc-loai-bo-dan-trong-mot-thap-ky-320.html">Nhiên liệu hóa thạch trên thế giới có thể được loại bỏ dần trong một thập kỷ</a>
+    	</li>
+    
+    	<li>
+			<a title="Ứng dụng phần mềm e-Report giúp ngành Y tế tiết kiệm thời gian" href="https://megacode.vn/news/tin-tuc-cong-nghe/ung-dung-phan-mem-e-report-giup-nganh-y-te-tiet-kiem-thoi-gian-311.html">Ứng dụng phần mềm e-Report giúp ngành Y tế tiết kiệm thời gian</a>
+    	</li>
+    
+    	<li>
+			<a title="Việt Nam – thiên đường Wi-Fi chùa" href="https://megacode.vn/news/tin-tuc-cong-nghe/viet-nam-thien-duong-wi-fi-chua-285.html">Việt Nam – thiên đường Wi-Fi chùa</a>
+    	</li>
+    
+    	<li>
+			<a title="Bài tập thể dục cho dân IT" href="https://megacode.vn/news/tin-tuc-cong-nghe/bai-tap-the-duc-cho-dan-it-129.html">Bài tập thể dục cho dân IT</a>
+    	</li>
+    
+    	<li>
+			<a title="Robot Moro, đối thủ lớn của Amazon Echo và Google Home" href="https://megacode.vn/news/tin-tuc-cong-nghe/robot-moro-doi-thu-lon-cua-amazon-echo-va-google-home-400.html">Robot Moro, đối thủ lớn của Amazon Echo và Google Home</a>
+    	</li>
+    
+    	<li>
+			<a title="Những thương hiệu giá trị nhất thế giới năm 2017" href="https://megacode.vn/news/tin-tuc-cong-nghe/nhung-thuong-hieu-gia-tri-nhat-the-gioi-nam-2017-364.html">Những thương hiệu giá trị nhất thế giới năm 2017</a>
+    	</li>
+    
+    	<li>
+			<a title="NASA sẽ phóng vệ tinh đo lường độ ẩm của đất với độ chính xác và phạm vi lớn" href="https://megacode.vn/news/tin-tuc-cong-nghe/nasa-se-phong-ve-tinh-do-luong-do-am-cua-dat-voi-do-chinh-xac-va-pham-vi-lon-149.html">NASA sẽ phóng vệ tinh đo lường độ ẩm của đất với độ chính xác và phạm vi lớn</a>
+    	</li>
+    
+    	<li>
+			<a title="6 lý do Laravel là framework PHP tốt nhất để phát triển ứng dụng Web" href="https://megacode.vn/news/tin-tuc-cong-nghe/6-ly-do-laravel-la-framework-php-tot-nhat-de-phat-trien-ung-dung-web-381.html">6 lý do Laravel là framework PHP tốt nhất để phát triển ứng dụng Web</a>
+    	</li>
+    
+    	<li>
+			<a title="Thượng viện Mỹ phê chuẩn dự luật an ninh mạng" href="https://megacode.vn/news/tin-tuc-cong-nghe/thuo-ng-vie-n-my-phe-chua-n-du-lua-t-an-ninh-ma-ng-272.html">Thượng viện Mỹ phê chuẩn dự luật an ninh mạng</a>
+    	</li>
+    
+    	<li>
+			<a title="Giới thiệu Vina HotDeal v1.1.0" href="https://megacode.vn/news/tin-tuc-cong-nghe/gioi-thieu-vina-hotdeal-v1-1-0-79.html">Giới thiệu Vina HotDeal v1.1.0</a>
+    	</li>
+    
+    	<li>
+			<a title="Website của bạn giá trị bao nhiêu?" href="https://megacode.vn/news/tin-tuc-cong-nghe/website-cua-ban-gia-tri-bao-nhieu-69.html">Website của bạn giá trị bao nhiêu?</a>
+    	</li>
+    
+    	<li>
+			<a title="EVN Hà Nội dùng 1.300 “gậy tự sướng”, tablet ghi chỉ số điện" href="https://megacode.vn/news/tin-tuc-cong-nghe/evn-ha-noi-dung-1-300-gay-tu-suong-tablet-ghi-chi-so-dien-234.html">EVN Hà Nội dùng 1.300 “gậy tự sướng”, tablet ghi chỉ số điện</a>
+    	</li>
+    
+    	<li>
+			<a title="Hoàn tất sửa cáp quang biển AAG trước thời gian dự kiến" href="https://megacode.vn/news/tin-tuc-cong-nghe/hoan-tat-sua-cap-quang-bien-aag-truoc-thoi-gian-du-kien-139.html">Hoàn tất sửa cáp quang biển AAG trước thời gian dự kiến</a>
+    	</li>
+    
+    	<li>
+			<a title="Giao diện ZenUI có lợi như thế nào ?" href="https://megacode.vn/news/tin-tuc-cong-nghe/giao-dien-zenui-co-loi-nhu-the-nao-134.html">Giao diện ZenUI có lợi như thế nào ?</a>
+    	</li>
+    
+    	<li>
+			<a title="Facebook thử nghiệm nút &quot;Watch Later&quot;, quyết tâm thống trị thị trường video" href="https://megacode.vn/news/tin-tuc-cong-nghe/facebook-thu-nghiem-nut-watch-later-quyet-tam-thong-tri-thi-truong-video-239.html">Facebook thử nghiệm nút &quot;Watch Later&quot;, quyết tâm thống trị thị trường video</a>
+    	</li>
+    
+</ul>	</div></div><div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div id="wrapperBottom">				
+    <div class="wapfull clearfix">
+	
+<ul class="submenu_fot">
+<li>
+<a title="Phát triển website" href="https://megacode.vn/files/phat-trien-website.html">Phát triển website</a>
+<ul>
+<li>
+<a title="Joomla template" href="https://megacode.vn/files/joomla-template.html">&bull; Joomla template</a>
+</li>
+<li>
+<a title="Drupal  template" href="https://megacode.vn/files/drupal-template.html">&bull; Drupal  template</a>
+</li>
+<li>
+<a title="Magento template" href="https://megacode.vn/files/magento-template.html">&bull; Magento template</a>
+</li>
+<li>
+<a title="WordPress template" href="https://megacode.vn/files/wordpress-template.html">&bull; WordPress template</a>
+</li>
+<li>
+<a title="Nukeviet template" href="https://megacode.vn/files/nukeviet-template.html">&bull; Nukeviet template</a>
+</li>
+<li>
+<a title="Opencart template" href="https://megacode.vn/files/opencart-template.html">&bull; Opencart template</a>
+</li>
+<li>
+<a title="HTML-CSS template" href="https://megacode.vn/files/html-css-template.html">&bull; HTML-CSS template</a>
+</li>
+<li>
+<a title="Forum PHPBB, VBB" href="https://megacode.vn/files/forum-phpbb-vbb.html">&bull; Forum PHPBB, VBB</a>
+</li>
+<li>
+<a title="Flash template, Flash game" href="https://megacode.vn/files/flash-template.html">&bull; Flash template, Flash game</a>
+</li>
+<li>
+<a title="Php&amp;mySql" href="https://megacode.vn/files/php-mysql.html">&bull; Php&mySql</a>
+</li>
+<li>
+<a title="Javascript" href="https://megacode.vn/files/javascript.html">&bull; Javascript</a>
+</li>
+<li>
+<a title="ASP.NET Framework" href="https://megacode.vn/files/net-framework.html">&bull; ASP.NET Framework</a>
+</li>
+<li>
+<a title="Hotdeal Code" href="https://megacode.vn/files/hotdeal-code.html">&bull; Hotdeal Code</a>
+</li>
+<li>
+<a title="Laravel" href="https://megacode.vn/files/laravel.html">&bull; Laravel</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Thiết kế đồ họa" href="https://megacode.vn/files/thiet-ke-do-hoa.html">Thiết kế đồ họa</a>
+<ul>
+<li>
+<a title="Adobe Photoshop" href="https://megacode.vn/files/adobe-photoshop.html">&bull; Adobe Photoshop</a>
+</li>
+<li>
+<a title="Autodesk 3DS Max" href="https://megacode.vn/files/autodesk-3ds-max.html">&bull; Autodesk 3DS Max</a>
+</li>
+<li>
+<a title="CorelDRAW Graphics" href="https://megacode.vn/files/coreldraw-graphics.html">&bull; CorelDRAW Graphics</a>
+</li>
+<li>
+<a title="Autodesk AutoCAD" href="https://megacode.vn/files/autodesk-autocad.html">&bull; Autodesk AutoCAD</a>
+</li>
+<li>
+<a title="Mathworks Matlab" href="https://megacode.vn/files/mathworks-matlab.html">&bull; Mathworks Matlab</a>
+</li>
+<li>
+<a title="Adobe Illustrator graphic" href="https://megacode.vn/files/adobe-illustrator-graphic.html">&bull; Adobe Illustrator graphic</a>
+</li>
+<li>
+<a title="Adobe After Effects" href="https://megacode.vn/files/adobe-after-effects.html">&bull; Adobe After Effects</a>
+</li>
+<li>
+<a title="Icons" href="https://megacode.vn/files/icons.html">&bull; Icons</a>
+</li>
+<li>
+<a title="Sketchup" href="https://megacode.vn/files/sketchup.html">&bull; Sketchup</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Ứng dụng desktop" href="https://megacode.vn/files/ung-dung-desktop.html">Ứng dụng desktop</a>
+<ul>
+<li>
+<a title="C &#x002F; C++ &#x002F; MFC" href="https://megacode.vn/files/c-c-mfc.html">&bull; C / C++ / MFC</a>
+</li>
+<li>
+<a title="Visual studio &amp; .NET" href="https://megacode.vn/files/visual-studio-net.html">&bull; Visual studio & .NET</a>
+</li>
+<li>
+<a title="Sharepoint" href="https://megacode.vn/files/sharepoint.html">&bull; Sharepoint</a>
+</li>
+<li>
+<a title="Visual Basic" href="https://megacode.vn/files/visual-basic.html">&bull; Visual Basic</a>
+</li>
+<li>
+<a title="Java Sun" href="https://megacode.vn/files/java-sun.html">&bull; Java Sun</a>
+</li>
+<li>
+<a title="MS Office" href="https://megacode.vn/files/ms-office.html">&bull; MS Office</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Ứng dụng mobile" href="https://megacode.vn/files/ung-dung-mobile.html">Ứng dụng mobile</a>
+<ul>
+<li>
+<a title="Wap mobile" href="https://megacode.vn/files/wap-mobile.html">&bull; Wap mobile</a>
+</li>
+<li>
+<a title="Java mobile" href="https://megacode.vn/files/java-mobile.html">&bull; Java mobile</a>
+</li>
+<li>
+<a title="Android" href="https://megacode.vn/files/android.html">&bull; Android</a>
+</li>
+<li>
+<a title="Windows phone" href="https://megacode.vn/files/windows-phone.html">&bull; Windows phone</a>
+</li>
+<li>
+<a title="iPhone OS" href="https://megacode.vn/files/iphone-os.html">&bull; iPhone OS</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Tài liệu và Thủ thuật" href="https://megacode.vn/files/tai-lieu.html">Tài liệu và Thủ thuật</a>
+<ul>
+<li>
+<a title="Đồ án, luận văn, báo cáo" href="https://megacode.vn/files/do-an-luan-van-bao-cao.html">&bull; Đồ án, luận văn, báo cáo</a>
+</li>
+<li>
+<a title="Tài liệu tham khảo" href="https://megacode.vn/files/tai-lieu-tham-khao.html">&bull; Tài liệu tham khảo</a>
+</li>
+<li>
+<a title="Ý tưởng thiết kế" href="https://megacode.vn/files/y-tuong-thiet-ke.html">&bull; Ý tưởng thiết kế</a>
+</li>
+<li>
+<a title="Mẫu biểu - Hướng dẫn" href="https://megacode.vn/files/mau-bieu-huong-dan.html">&bull; Mẫu biểu - Hướng dẫn</a>
+</li>
+<li>
+<a title="Thủ thuật máy tính" href="https://megacode.vn/files/thu-thuat-may-tinh.html">&bull; Thủ thuật máy tính</a>
+</li>
+<li>
+<a title="Google Adsense" href="https://megacode.vn/files/google-adsense.html">&bull; Google Adsense</a>
+</li>
+<li>
+<a title="Thủ thuật SEO" href="https://megacode.vn/files/thu-thuat-seo.html">&bull; Thủ thuật SEO</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Cơ sở dữ liệu" href="https://megacode.vn/files/co-so-du-lieu.html">Cơ sở dữ liệu</a>
+<ul>
+<li>
+<a title="MySQL" href="https://megacode.vn/files/mysql.html">&bull; MySQL</a>
+</li>
+<li>
+<a title="Oracle" href="https://megacode.vn/files/oracle.html">&bull; Oracle</a>
+</li>
+<li>
+<a title="PostgreSQL" href="https://megacode.vn/files/postgresql.html">&bull; PostgreSQL</a>
+</li>
+<li>
+<a title="SQL Server" href="https://megacode.vn/files/sql-server.html">&bull; SQL Server</a>
+</li>
+</ul>
+</li>
+<li>
+<a title="Công cụ phát triển" href="https://megacode.vn/files/cong-cu-phat-trien.html">Công cụ phát triển</a>
+</li>
+<li>
+<a title="Hệ thống nhúng" href="https://megacode.vn/files/he-thong-nhung.html">Hệ thống nhúng</a>
+</li>
+
+</ul>
+<div class="clear"></div>
+
+
+	<a href="http://gotravelvn.com/">go travel vietnam review</a>,&nbsp;<a href="http://vietfoodnews.net/">vietnam cuisine delicious dishes</a>,&nbsp;<a href="https://matran.edu.vn/">Thi thử THPT Quốc gia</a>,&nbsp;<a href="http://imathtest.net/">Free gmat test</a>,&nbsp;<a href="http://thithu24h.com/">Thi thử quốc gia 24h</a>,&nbsp;<a href="http://codetitle.org/">Library source code free download</a>
+</div>
+</div>
+<div class="oheader">
+	<div class="wapfull clearfix" style="color:#333; padding:10px 0; line-height:22px; ">
+        <div class="fl">
+            <div><strong>Megacode.vn - Thư viện mã nguồn chia sẻ, tải file cho cộng đồng</strong></div>
+            <div>
+                Copyright &copy; 2013-2021. All rights reserved. Bản quyền thuộc <strong>VinaGon</strong>
+            </div>
+			<div>Email: info@vinagon.com</div>
+			<div><strong>Hotline: 086.924.3838</strong></div>
+        </div>
+        <div class="fl clearfix" style="width:180px; margin-left:40px">
+            <ul style="margin-left:15px;">
+            	<li><a href="http://megacode.vn/ho-tro-su-dung/dieu-kien-giao-dich-chung.html"><strong>Điều kiện giao dịch chung</strong></a></li>
+                <li><a href="http://megacode.vn/ho-tro-su-dung/phuong-thuc-thanh-toan.html"><strong>Phương thức thanh toán</strong></a></li>
+                <li><a href="http://megacode.vn/ho-tro-su-dung/van-chuyen-va-giao-nhan.html"><strong>Phương thức vận chuyển</strong></a></li>
+                <li><a href="http://megacode.vn/ho-tro-su-dung/chinh-sach-bao-mat.html"><strong>Chính sách bảo mật</strong></a></li>
+            </ul>
+        </div>
+		<div style="width:250px;" class="fr">
+			<span class="clearfix">
+				<span class="fl" style="padding-top:2px; height:24px; margin-right:10px">
+					<div class="g-plusone" data-size="medium" data-href="https://megacode.vn/"></div>
+					<script type="text/javascript">
+					  (function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/platform.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+				</span>
+				<span class="fl" style="padding-top:3px; height:24px">
+					<iframe src="https://www.facebook.com/plugins/like.php?href=https://megacode.vn/&width=154&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="154" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				</span>
+			</span>
+			<img width="180" src="https://megacode.vn/images/dathongbao.png">
+			
+        </div>
+    </div>
+</div>
+<a href="#" class="scrollup" style="z-index:100">Scroll</a>
+
+
+</body>
+</html>

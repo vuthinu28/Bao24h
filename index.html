@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>News24h</title>
+    <meta http-equiv="Content-Type" content="text/shtml; charset=utf-8" />
+    <link type="text/css" href="css/bao-styles.css" rel="stylesheet" media="screen" />
+    <link rel="icon" href="images/icon_24h.ico" type="image/png" />
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/bao24h-jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="warpper">
+        <div class="scroll-top">
+            <a>
+                <img src="images/arrowPageUp.png" />
+            </a>
+        </div>
+        <!--end-scroll-top-->
+        <div class="grid-container">
+            <div class="header">
+                <div class="  header-top">
+                    <img src="images/quang-cao-truc-tuyen-24h-1418338469.jpg" alt="logo24h">
+                    <!--img-logo24h-->
+                    <form method="GET">
+                        <input name="q" value="" placeholder="Nhập tin tức cần tìm ..." />
+                        <button>Tìm kiếm</button>
+                    </form>
+                    <!--end-tìm-kiếm-->
+                    <a href="#" id="btn-open">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <!--end-icon-user-->
+                    <div id="id01" class="warpper-form">
+                        <form class="modal-content animate" method="post">
+                            <div class="style-login">
+                                <span id="btn-close" class="close" title="Close-login">&times;</span>
+                                <h1>Đăng nhập nhanh</h1>
+                                <a href="#" class="fb btn">
+                                    <i class="fab fa-facebook"></i> Login with Facebook
+                                </a>
+                                <a href="#" class="twitter btn">
+                                    <i class="fab fa-twitter"></i> Login with Twitter
+                                </a>
+                                <a href="#" class="google btn">
+                                    <i class="fab fa-google"></i> Login with Google
+                                </a>
+                            </div>
+                            <div class="container">
+                                <h1>Đăng nhập </h1>
+
+                                <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+
+
+                                <input type="password" placeholder="Mật khẩu" name="psw" required>
+
+                                <button type="submit" class="btn-login">Đăng nhập</button>
+
+                                <button type="button" id="btn-cance" class="cancelbtn">Thoát</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end-warpper-form-->
+                    <a href="#" class="mobile-download">
+                        <i class="fas fa-mobile-alt"></i>
+                    </a>
+                    <!--end-icon-moblie-->
+                </div>
+                <!--end-header-top-->
+                <div class="tap header-botoom">
+                    <ul class="menu-bao">
+                        <li class=" trang-chu ">
+                            <a href="./bao24h.html">
+                                <span class="icon-menu"><i class="fas fa-home"></i></span>
+                                <span class="tit">TRANG CHỦ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-newspaper"></i></span>
+                                <span class="tit">THỜI SỰ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="far fa-chart-bar"></i></span>
+                                <span class="tit">KINH DOANH</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="topic-soccer.html">
+                                <span class="icon-menu"><i class="fas fa-futbol"></i></span>
+                                <span class="tit">BÓNG ĐÁ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-shopping-cart"></i></span>
+                                <span class="tit">THỊ TRƯỜNG</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-heartbeat"></i></span>
+                                <span class="tit">SỨC KHỎE</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-mobile-alt"></i></span>
+                                <span class="tit">HI-TECH</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-music"></i></span>
+                                <span class="tit">SHOWBIZ</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-globe-asia"></i></span>
+                                <span class="tit">THẾ GIỚI</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-map-marked-alt"></i></span>
+                                <span class="tit">DU LỊCH</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="far fa-futbol"></i></span>
+                                <span class="tit">NGOẠI HANG ANH</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end-menu-->
+                    <div class="dropdown">
+                        <div class="icon-soc"><a href="#"><i class="fas fa-align-justify icon-danh-muc"></i></a></div>
+                        <div class="danh-muc">
+                            <a href="#">NEWS</a>
+                            <a href="#">HOT</a>
+                            <a href="#">DU LỊCH</a>
+                            <a href="#">FILM</a>
+                            <a href="#">THỜI TRANG</a>
+                            <a href="#">ÂM NHẠC</a>
+                            <a href="#">SPORTS</a>
+                            <a href="#">ẨM THỰC</a>
+                            <a href="#">LỄ HỘI</a>
+                            <a href="#">CÔNG NGHỆ</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end-header-bottom-->
+            </div>
+            <!--end-header-->
+        </div>
+    </div>
+</body>
+</html>
