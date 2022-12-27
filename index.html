@@ -4,7 +4,7 @@
 <head>
     <title>News24h</title>
     <meta http-equiv="Content-Type" content="text/shtml; charset=utf-8" />
-    <link rel ="stylesheet" href="css/index-style.css">
+    <link type="text/css" href="css/index-style.css" rel="stylesheet" media="screen" />
     <link rel="icon" href="images/icon_24h.ico" type="image/png" />
     <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,36 @@
                         <i class="fas fa-user"></i>
                     </a>
                     <!--end-icon-user-->
+                    <div id="id01" class="warpper-form">
+                        <form class="modal-content animate" method="post">
+                            <div class="style-login">
+                                <span id="btn-close" class="close" title="Close-login">&times;</span>
+                                <h1>Đăng nhập nhanh</h1>
+                                <a href="#" class="fb btn">
+                                    <i class="fab fa-facebook"></i> Login with Facebook
+                                </a>
+                                <a href="#" class="twitter btn">
+                                    <i class="fab fa-twitter"></i> Login with Twitter
+                                </a>
+                                <a href="#" class="google btn">
+                                    <i class="fab fa-google"></i> Login with Google
+                                </a>
+                            </div>
+                            <div class="container">
+                                <h1>Đăng nhập </h1>
+
+                                <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+
+
+                                <input type="password" placeholder="Mật khẩu" name="psw" required>
+
+                                <button type="submit" class="btn-login">Đăng nhập</button>
+
+                                <button type="button" id="btn-cance" class="cancelbtn">Thoát</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
                     <!--end-warpper-form-->
                     <a href="#" class="mobile-download">
                         <i class="fas fa-mobile-alt"></i>
@@ -112,12 +142,11 @@
                         </li>
                     </ul>
                     <!--end-menu-->
+
+
+
                     <div class="dropdown">
-                        <div class="icon-soc">
-                            <a href="#">
-                                <i class="fas fa-align-justify icon-danh-muc"></i>
-                            </a>
-                        </div>
+                        <div class="icon-soc"><a href="#"><i class="fas fa-align-justify icon-danh-muc"></i></a></div>
                         <div class="danh-muc">
                             <a href="#">NEWS</a>
                             <a href="#">HOT</a>
@@ -131,9 +160,11 @@
                             <a href="#">CÔNG NGHỆ</a>
                         </div>
                     </div>
+
                 </div>
-            </div>
                 <!--end-header-bottom-->
+            </div>
+            <!--end-header-->
             <div class="content">
                 <div class="top-left">
                     <a
@@ -146,7 +177,187 @@
                             bằng cả .</h3>
                     </a>
                 </div>
+                <!--end-content-top-left-->
+                <div class="noi-dung-chinh">
+                    <ul>
+                        <li>
+                            <a href="detail-page.html">
+                                <img src="images/cong-phuong-hagl-nam-dinh.png">
+                                <h3>Ông Phan Anh Tú: ‘Trận đấu với Nam Định là một bài học lớn cho HAGL’</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam+.png">
+                                <h5>6 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://laodong.vn/xa-hoi/anh-nguyen-ngoc-manh-nhan-them-bang-khen-884846.ldo">
+                                <img src="images/1614651608-69-thumbnail-width640height480.jpg" alt="img-thumb">
+                                <h3>Bộ trưởng Bộ Lao động - Thương binh và Xã hội đã ký quyết định tặng bằng khen cho
+                                    anh Nguyễn Ngọc Mạnh.</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/tienphong.png" alt="tien-phong">
+                                <h5>38 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://hmu.edu.vn/news/tID6696_quoc-hoi-phe-chuan-bo-nhiem-12-bo-truong-va-thanh-vien-khac-cua-chinh-phu.html">
+                                <img src="images/quochoi.jpg" alt="img-quochoi">
+                                <h3>Quốc hội phê chuẩn bổ nhiệm 12 Bộ trưởng và thành viên khác của Chính phủ</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/toquoc.png" alt="to-quoc">
+                                <h5>1 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://baomoi.com/ha-noi-to-chuc-3-dot-xet-nghiem-sars-cov-2-cho-31-000-nhan-vien-y-te-va-nguoi-benh/c/38463207.epi">
+                                <img src="images/content1.jpg" alt="img-xetnghiem">
+                                <h3>Hà Nội tổ chức 3 đợt xét nghiệm SARS-CoV-2 cho 31.000 nhân viên y tế và người bệnh
+                                </h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam.png" alt="vietnam.net">
+                                <h5>4 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://baomoi.com/nhung-giay-to-can-cap-nhat-khi-chuyen-sang-dung-can-cuoc-cong-dan-gan-chip/c/38462240.epi">
+                                <img src="images/content2.jpg" alt="img-chip-cancuoc">
+                                <h3>Những giấy tờ cần cập nhật khi chuyển sang dùng căn cước công dân gắn chíp</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam+.png" alt="vietnam+">
+                                <h5>25 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://zingnews.vn/xuan-truong-tuoi-tan-truoc-ngay-hoi-vo-post1201550.html"
+                                class="story-heading">
+
+                                <h3>Xuân Trường tươi tắn trước ngày hỏi vợ</h3>
+                                <img src="images/story1.webp" alt="img-xuantruong">
+                                <img src="images/story2.webp" alt="img-xuantruong">
+                                <img src="images/story3.webp" alt="img-xuantruong">
+                            </a>
+                            <div class="logo logo-story">
+                                <img src="images/vietnam.png">
+                                <h5>1 giờ</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://saostar.vn/dien-anh/cung-tuan-truong-triet-han-khi-nao-moi-duong-ai-nay-di-202104081219217137.html">
+                                <img src="images/content3.jpg" alt="film">
+                                <h3>Cung Tuấn - Trương Triết Hạn: Khi nào mới đường ai nấy đi như Tiêu Chiến - Vương
+                                    Nhất Bác?</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/saostar.png" alt="vietnam.net">
+                                <h5>45 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://baomoi.com/live-concert-rap-viet-he-lo-loat-hinh-anh-tong-duyet-gay-choang/c/38464816.epi">
+                                <img src="images/content4.jpg" alt="rap-viet">
+                                <h3>Live Concert Rap Việt hé lộ loạt hình ảnh tổng duyệt ''gây choáng''tổ chức tại trung
+                                    tâm SECC, quận 7, TPHCM. </h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam.png" alt="vietnam.net">
+                                <h5>2 ngày</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.xaluan.com/modules.php?name=News&file=article&sid=3121175">
+                                <img src="images/content5.webp" alt="hagl">
+                                <h3>HAGL của bầu Đức: Muốn bay cao, đừng thua các đội liên quan đến bầu Hiển</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/saostar.png" alt="saostar">
+                                <h5>55 phút</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://www.xaluan.com/modules.php?name=News&file=article&sid=3121175">
+                                <img src="images/content6.jpg" alt="MU">
+                                <h3>Rashford và Ferndandes 'tỏa sáng', MU giành lợi thế lớn vào bán kết Europa League
+                                </h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam.png" alt="vietnam.net">
+                                <h5>4 ngày</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://vov.vn/quan-su-quoc-phong/viet-nam/thieu-tuong-nguyen-xuan-kien-du-kien-thang-8-co-vaccine-covid-19-made-in-vietnam-849216.vov">
+                                <img src="images/content7.webp" alt="vaccine">
+                                <h3>Thiếu tướng Nguyễn Xuân Kiên: Dự kiến tháng 8 có vaccine Covid-19 "made in Vietnam".
+                                </h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/congannhandan.png" alt="congannhandan">
+                                <h5> 4 ngày</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://baomoi.com/tren-tay-realme-gt-neo-chip-dimensity-1200-manh-me-gia-chi-6-9-trieu-dong/c/38468753.epi">
+                                <img src="images/content8.webp" alt="Realme-GT-Neo">
+                                <h3>Trên tay Realme GT Neo: chip Dimensity 1200 mạnh mẽ, giá chỉ 6,9 triệu đồng.</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/nghenhin.png" alt="nghenhin">
+                                <h5>6 ngày</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://saostar.vn/cong-nghe/apple-dat-thanh-tich-an-tuong-voi-i-os-14-san-sang-cho-i-os-14-5-202104081135507996.html">
+                                <img src="images/content9.webp" alt="ios14">
+                                <h3>Apple đạt thành tích ấn tượng với iOS 14, sẵn sàng cho bản cập nhật đột phá iOS
+                                    14.5.</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/saostar.png" alt="saostar">
+                                <h5>3 giờ</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://baomoi.com/vpbank-muon-phat-hanh-15-trieu-co-phieu-dat-muc-tieu-lai-hon-16-600-ty-dong-trong-nam-2021/c/38475029.epi">
+                                <img src="images/content10.webp" alt="vbBank">
+                                <h3>VPBank muốn phát hành 15 triệu cổ phiếu, đặt mục tiêu lãi hơn 16.600 tỷ đồng trong
+                                    năm 2021.</h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/vietnam.png" alt="vietnam.net">
+                                <h5>4 giờ</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.baohomnay.com/Kinh-te/N-acirc-ng-cao-hieu-qua-hoat-dong-c-aacute-c-co-quan-to-chuc-thuoc-he-thong-h-agrave-nh-ch-iacute-nh-nh-agrave-nuoc-2953633.html">
+                                <img src="images/content11.webp" alt="hanh-chinh-nha-nuoc">
+                                <h3>Nâng cao hiệu quả hoạt động các cơ quan, tổ chức thuộc hệ thống hành chính nhà nước.
+                                </h3>
+                            </a>
+                            <div class="logo">
+                                <img src="images/tintuc.png" alt="tintuc">
+                                <h5>2 giờ</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--end-noi-dung-chinh-->
             </div>
+            <!--end-content-->
             <div class="slide-show1">
                 <div class="dieuhuong">
                     <i class="fas fa-chevron-circle-left" id="back"></i>
@@ -169,7 +380,512 @@
                 </div>
             </div>
             <!--end-slide-show1-->
-            <!--end-header-->
+            <div class=" th theme">
+                <div class="title botoom1 ">
+                    <h1>TIN NÓNG</h1>
+                </div>
+                <ul class="noidung-tin-nong">
+                    <li>
+                        <a href="#">
+                            <img src="images/tinmoi1oi1.jpg" alt="canbocongan" />
+                            <h3>Những kỷ niệm ấn tượng của cán bộ công an ở điểm cấp thẻ căn cước vùng cao.</h3>
+                        </a>
+                        <div class="logo color-top">
+                            <img src="images/giaothong.png">
+                            <h5>1 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://vtc.vn/thu-tuong-hun-sen-campuchia-dang-dung-truoc-ho-tu-than-ar606772.html">
+                            <img src="images/img1-tinnong.webp" alt="#" />
+                            <h3>Thủ tướng Hun Sen: Campuchia đang đứng trước 'hố tử thần'</h3>
+                        </a>
+                        <div class="logo  color-top">
+                            <img src="images/vtcnew.png">
+                            <h5>4 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="http://kinhtedothi.vn/du-an-ham-chui-le-van-luong-cam-ket-thi-cong-dung-giay-phep-415964.html">
+                            <img src="images/img2-tinnong.webp" alt="#" />
+                            <h3>Dự án hầm chui Lê Văn Lương: Cam kết thi công đúng giấy phép</h3>
+                        </a>
+                        <div class="logo color-top">
+                            <img src="images/kinhtedothi.png">
+                            <h5>7 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.baogiaothong.vn/ke-no-min-tu-che-tai-tiem-vang-duc-de-roi-lan-tron-1-thang-qua-la-ai-d502804.html">
+                            <img src="images/img3-tinnong.webp" alt="#" />
+                            <h3>Kẻ nổ mìn tự chế tại tiệm vàng Đức Đệ rồi lẩn trốn 1 tháng qua là ai?</h3>
+                        </a>
+                        <div class="logo color-top">
+                            <img src="images/giaothong.png" alt="#">
+                            <h5>15 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://plo.vn/thoi-su/bat-giam-doc-cong-ty-xang-dau-long-an-trong-vu-xang-gia-khung-979028.html">
+                            <img src="images/img4-tinnong.webp" alt="#" />
+                            <h3>Bắt giám đốc Công ty Xăng dầu Long An trong vụ xăng giả khủng</h3>
+                        </a>
+                        <div class="logo color-top">
+                            <img src="images/phapluat.png">
+                            <h5>27 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://baotintuc.vn/the-gioi/nga-chuyen-giao-cong-nghe-san-xuat-vaccine-sputnik-v-cho-han-quoc-20210415154344454.htm">
+                            <img src="images/img5-tinnong.webp" alt="#" />
+                            <h3>Nga chuyển giao công nghệ sản xuất vaccine Sputnik V cho Hàn Quốc</h3>
+                        </a>
+                        <div class="logo color-top">
+                            <img src="images/giaothong.png">
+                            <h5>9 phút</h5>
+                        </div>
+                    </li>
+                </ul><!-- end-tin-nong-->
+            </div>
+            <!--end-theme-->
+            <div class=" th theme2">
+                <div class="title botoom1">
+                    <h1>TIN 24H</h1>
+                </div>
+                <ul class="noidung-tin24h">
+                    <li>
+                        <a href="https://tienphong.vn/giam-doc-cong-ty-xang-dau-long-an-bi-bat-la-ai-post1328410.tpo">
+                            <img src="images/img1-tin24h.jpg" />
+                            <h3>Giám đốc Công ty xăng dầu Long An bị bắt là ai?</h3>
+                        </a>
+                        <div class="logo color-botoom">
+                            <img src="images/tienphong.png">
+                            <h5>5 giờ </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://vietnamnet.vn/vn/thoi-su/mua-nhu-trut-nhieu-tuyen-duong-o-sai-gon-ngap-lenh-lang-728104.html">
+                            <img src="images/img2-tin24h.webp" />
+                            <h3>Mưa như trút, nhiều tuyến đường ở Sài Gòn ngập lênh láng</h3>
+                        </a>
+                        <div class="logo color-botoom">
+                            <img src="images/vietnam.png">
+                            <h5>40 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://baotintuc.vn/the-gioi/brazil-dieu-tra-viec-doi-vaccine-lay-vang-khai-thac-trai-phep-20210415175911651.htm">
+                            <img src="images/img3-tin24h.webp" />
+                            <h3>Brazil điều tra việc đổi vaccine lấy vàng khai thác trái phép</h3>
+                        </a>
+                        <div class="logo  color-botoom">
+                            <img src="images/vtcnew.png">
+                            <h5>55 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://baotintuc.vn/van-de-quan-tam/mua-bao-nam-2021-co-kha-nang-xuat-hien-1013-con-bao-va-ap-thap-nhiet-doi-20210415173006017.htm">
+                            <img src="images/img4-tin24h.webp" />
+                            <h3>Mùa bão năm 2021 có khả năng xuất hiện 10-13 cơn bão và áp thấp nhiệt đới</h3>
+                        </a>
+                        <div class="logo  color-botoom">
+                            <img src="images/vietnam+.png">
+                            <h5>3 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://tienphong.vn/ngay-5-5-xet-xu-vu-an-cong-ty-nhat-cuong-buon-lau-post1328487.tpo">
+                            <img src="images/img5-tin24h.webp" />
+                            <h3>Ngày 5/5, xét xử vụ án Công ty Nhật Cường buôn lậu</h3>
+                        </a>
+                        <div class="logo  color-botoom">
+                            <img src="images/tienphong.png">
+                            <h5>1 ngày</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://zingnews.vn/bo-200-trieu-len-tick-xanh-facebook-de-ban-lan-dot-bien-post1204727.html">
+                            <img src="images/img6-tin24h.webp" />
+                            <h3>Bỏ 200 triệu lên tick xanh Facebook để bán lan đột biến</h3>
+                        </a>
+                        <div class="logo  color-botoom">
+                            <img src="images/vietnam.png">
+                            <h5>2 ngày</h5>
+                        </div>
+                    </li>
+                </ul><!-- end tin24h-->
+            </div>
+            <!--end-theme2-->
+            <div class=" th3 theme3">
+                <div class="title botoom2">
+                    <h1>VIDEO</h1>
+                </div>
+                <ul class="noidung-botoom-video">
+                    <li>
+                        <h3>
+                            <a href="#">CLIP: Gã trai bảo vệ giả công an để... lấy oai với bạn mới quen trên mạng</a>
+                        </h3>
+                        <a href="#">
+                            <video autoplay loop muted>
+                                <source
+                                    src="Video/CLIP- Gã trai bảo vệ giả công an để... lấy oai với bạn mới quen trên mạng - Báo Người lao động.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#" class="cach">(NLĐO) - Tại cơ quan công an, Linh khai nhận là nhân viên bảo vệ nhưng
+                            sử dụng trang phục công an nhân dân để…
+                        </a>
+                        <div class="logo  color-video">
+                            <img src="images/vietnam.png">
+                            <h5>1 ngày</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>
+                            <a
+                                href="https://www.nguoiduatin.vn/clip-nguoi-dan-ong-an-do-suyt-nga-lau-vi-ngat-xiu-a511467.html">Clip:
+                                Người đàn ông Ấn Độ suýt ngã lầu vì ngất xỉu</a>
+                        </h3>
+                        <a
+                            href="https://www.nguoiduatin.vn/clip-nguoi-dan-ong-an-do-suyt-nga-lau-vi-ngat-xiu-a511467.html">
+                            <video autoplay loop muted>
+                                <source src="Video/7b9000b22af0c3ae9ae1.gif.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#" class="cach">Nếu không được đồng nghiệp giữ chân, người đàn ông ngất xỉu có thể đã
+                            bỏ mạng vì ngã tư tầng 2 xuống đất.</a>
+                        <div class="logo  color-video">
+                            <img src="images/vov.png">
+                            <h5>5 giờ</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>
+                            <a
+                                href="https://kienthuc.net.vn/quan-su/suc-manh-phao-binh-nga-o-bien-gioi-du-de-bep-toan-bo-ukraine-1524223.html">Sức
+                                mạnh pháo binh Nga ở biên giới đủ đè bẹp toàn bộ Ukraine</a>
+                        </h3>
+                        <a
+                            href="https://kienthuc.net.vn/quan-su/suc-manh-phao-binh-nga-o-bien-gioi-du-de-bep-toan-bo-ukraine-1524223.html">
+                            <video autoplay loop muted>
+                                <source src="Video/Tin - BAOMOI.COM.mp4" type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#" class="cach">Lực lượng pháo binh Nga với một loạt pháo tự hành và pháo phản lực, đã
+                            áp sát biên giới với Ukraine</a>
+                        <div class="logo  color-video">
+                            <img src="images/vtcnew.png">
+                            <h5>2 giờ</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>
+                            <a
+                                href="https://vietnamnet.vn/vn/oto-xe-may/sau-tay-lai/tra-dua-sau-va-cham-tai-xe-o-to-lui-xe-huc-vang-xe-may-728038.html">Trả
+                                đũa sau va chạm, tài xế ô tô lùi xe húc văng xe máy</a>
+                        </h3>
+                        <a
+                            href="https://vietnamnet.vn/vn/oto-xe-may/sau-tay-lai/tra-dua-sau-va-cham-tai-xe-o-to-lui-xe-huc-vang-xe-may-728038.html">
+                            <video autoplay loop muted>
+                                <source src="Video/Tin - BAOMOI.COM (1).mp4" type="video/mp4">
+                            </video>
+                        </a>
+                        <a href="#" class="cach">Sau va chạm nhẹ và chút lời qua tiếng lại, tài xế ô tô đã đạp ga, lùi
+                            xe của mình đâm văng hay thanh niên đi xe xe máy, suýt gây tai nạn kinh hoàng.</a>
+                        <div class="logo  color-video">
+                            <img src="images/vietnam.png">
+                            <h5>40 phút</h5>
+                        </div>
+                    </li>
+                </ul><!-- end tin-video-->
+            </div>
+            <!--end-theme3-->
+            <div class=" ti tien-ich">
+                <div class="ban-tin">
+                    <table>
+                        <tr>
+                            <th colspan="3">
+                                <p> THỐNG KÊ SỐ LIỆU COVID 19</p>
+                                <i class="fas fa-flag"></i>
+                                <i class="fas fa-virus"></i>
+                                <i class="fas fa-skull-crossbones"></i>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>USA</td>
+                            <td>30,293,955</td>
+                            <td id="color-number">550,587</td>
+                        </tr>
+                        <tr>
+                            <td>Brazil</td>
+                            <td>11,700,431</td>
+                            <td id="color-number">285,136</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>11,474,302</td>
+                            <td id="color-number">159,250</td>
+                        </tr>
+                        <tr>
+                            <td>Russia</td>
+                            <td>4,418,436</td>
+                            <td id="color-number">93,364</td>
+                        </tr>
+                        <tr>
+                            <td>UK</td>
+                            <td>4,274,579</td>
+                            <td id="color-number">125,831</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>11,474,302</td>
+                            <td id="color-number">159,250</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>11,474,302</td>
+                            <td id="color-number">159,250</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>11,474,302</td>
+                            <td id="color-number">159,250</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>11,474,302</td>
+                            <td id="color-number">159,250</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--end-bantin-->
+                <div class="ads0">
+                    <a href="ho-chi-minh.html">
+                        <img src="images/banner_hcm_02-min.png" alt="#">
+                    </a>
+                </div>
+                <!--end-ads0-->
+                <div class="ads1">
+                    <h2><i class="fas fa-video"></i>VIDEO CHỌN LỌC</h2>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/bong-da/du-doan-ty-so-vong-8-v-league-hagl-dai-chien-da-nang-derby-thu-do-ha-noi-viettel-c48a1240904.html">
+
+                                <img src="images/vide_cp_special_v_league-1617632541-khokhanchodoihlvhoangvanphuc.jpg"
+                                    alt="#">
+                                <h3>Dự đoán tỷ số vòng 8 V-League: HAGL đại chiến Đà Nẵng, derby...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/phi-thuong-ky-quac/video-bao-dom-lao-xuong-song-giet-chet-ca-sau-caiman-loi-xac-vao-rung-an-thit-c159a1240592.html">
+                                <img src="images/video-1617598179-a.jpg" alt="#">
+                                <h3>Video: Báo đốm lao xuống sông giết chết cá sấu Caiman, lôi xác vào rừng...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/the-thao/giai-bi-a-khac-nghiet-nhat-vn-tuong-dai-57-tuoi-loai-soc-2-cao-thu-di-co-dien-c101a1240681.html">
+                                <img src="images/video3-1617610500-bia54.jpg" alt="#">
+                                <h3>Giải bi-a khắc nghiệt nhất VN: Tượng đài 57 tuổi loại sốc 2 cao thủ đi “cơ điên”<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/bong-da/mu-de-dau-hang-man-city-vao-thang-5-dua-vo-dich-la-liga-cuc-kho-luong-clip-1-phut-bong-da-24h-c48a1240713.html">
+                                <img src="images/video4-1617620671-clip1phut0504_l2.jpg" alt="#">
+                                <h3>MU dễ "đầu hàng" Man City vào tháng 5, đua vô địch La Liga cực khó...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/bong-da/nghi-an-ban-do-lo-lieu-nhat-nam-khan-gia-phan-no-mia-mai-dien-xuat-qua-te-c48a1240420.html">
+                                <img src="images/video5_cp_special_v_league-1617632541-khokhanchodoihlvhoangvanphuc.jpg"
+                                    alt="">
+                                <h3>Nghi án bán độ lộ liễu nhất năm: Khán giả phẫn nộ, mỉa mai diễn xuất...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/phi-thuong-ky-quac/video-bao-dom-lao-xuong-song-giet-chet-ca-sau-caiman-loi-xac-vao-rung-an-thit-c159a1240592.html">
+                                <img src="images/video-1617598179-a.jpg" alt="#">
+                                <h3>Video: Báo đốm lao xuống sông giết chết cá sấu Caiman, lôi xác vào rừng...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.24h.com.vn/bong-da/du-doan-ty-so-vong-8-v-league-hagl-dai-chien-da-nang-derby-thu-do-ha-noi-viettel-c48a1240904.html">
+                                <img src="images/vide_cp_special_v_league-1617632541-khokhanchodoihlvhoangvanphuc.jpg"
+                                    alt="#">
+                                <h3>Dự đoán tỷ số vòng 8 V-League: HAGL đại chiến Đà Nẵng, derby...<i
+                                        class="fas fa-video"></i></h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--end-ads1-video-chon-loc-->
+                <div class="ads2">
+                    <img src="images/ads2.png">
+                </div>
+                <!--end-ads2-->
+            </div>
+            <!--end-tien-ich-->
+            <div class="slide-show2">
+                <!--icon-next&back-->
+                <div class="left control"><i class="fas fa-angle-left" onclick="back1()"></i></div>
+                <div class="right control"><i class="fas fa-angle-right" onclick="Next1()"></i></div>
+
+                <div class="chuyen-slide2">
+                    <div class="box1 box active1">
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://www.24h.com.vn/doanh-nghiep/lf-logistics-viet-nam-va-nhung-chien-luoc-hoat-dong-xanh-ben-vung-c849a1243047.html">
+                                    <img src="images/img1 slide-show2.jpg">
+                                    LF Logistics Việt Nam và những chiến lược hoạt động xanh bền vững
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.24h.com.vn/thi-truong-24h/shopee-tung-bo-suu-tap-dong-gia-1k-re-sap-san-cung-hang-ngan-deal-duoi-9k-c341a1243428.html">
+                                    <img src="images/img1.2 slide-show2.jpg">
+                                    Shopee tung bộ sưu tập đồng giá 1K “rẻ sập sàn” cùng hàng ngàn deal “đuôi 9K”
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box2  box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img1.1 slide-show2.jpg">Không chỉ đổi mới trong cửa hàng offline,
+                                    Bách hoá Xanh nâng cấp luôn không gian mua sắm online
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img2.2 slide-show2.jpg">Thời trang Vulcano ra mắt BST Hè 2021 thu
+                                    hút mọi ánh nhìn.
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box3  box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img3.1 slide-show2.jpg">5 lợi ích "có tiền cũng khó mua" khi sở hữu
+                                    nhà gần trường học
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img3.2 slide-show2.jpg">Noo Phước Thịnh sẽ xuất hiện trong Đại hội
+                                    Tuyển dụng lớn nhất năm 2021
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box4  box">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/img4.1 slide-show2.jpg">FPT Shop đồng loạt giảm 30% giá bán
+                                    các mẫu đồng hồ thời trang</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/img4.2 slide-show2.jpg">Vinhomes tổ chức đại hội tuyển dụng
+                                    năm 2021</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box5  box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img5.1 slide-show2.jpg">Trung tâm mới Phú Quốc United Center sẽ
+                                    thúc đẩy thành phố đảo “cất cánh” như thế nào?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img5.2 slide-show2.jpg">“Cuộc chiến dữ liệu” thời kỳ hậu 2G!</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box6 box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img6.1 slide-show2.jpg">Mở bán toà căn hộ dịch vụ đầu tiên tại
+                                    Vinhomes Smart City
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/img6.2 slide-show2.jpg">Sữa tươi Green Farm mới – Dòng sản phẩm
+                                    được lòng người tiêu dùng nhờ yếu tố thiên nhiên
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box7 box">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/img7.1 slide-show2.jpg">Giải nhiệt mùa hè, NowFood tung
+                                    hàng trăm DEAL XỊN</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/img7.2 slide-show2.jpg">“Tháng 4 rực rỡ” với loạt chương
+                                    trình ưu đãi đến từ Lotteria</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box8  box">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/img8.1 slide-show2.jpg">Bí mật đằng sau TVC VinFast đang
+                                    gây sốt trên CNN</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/img8.2 slide-show2.jpg">Kỹ năng thế kỷ 21: Bố mẹ đã chuẩn
+                                    bị cho con mình như thế nào?</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box9  box">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/img4.2 slide-show2.jpg">Vinhomes tổ chức đại hội tuyển dụng
+                                    năm 2021</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/thongtindoanhnghiep2.jpg">The Holiday Ha Long: Hội tụ những
+                                    tên tuổi lớn giữa trung tâm...</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <!--end-chuyenslide2-->
+            </div>
+            <!--end-slide-show2-->
             <div class="footer">
                 <div class="footer-baner1">
                     <ul>
@@ -252,8 +968,7 @@
         <!--end-grid-container-->
     </div>
     <!--end-warpper-->
-    </div>
-</div>
-<script type="text/javascript" src="js/bao24h.js"></script>
+    <script type="text/javascript" src="js/bao24h.js"></script>
 </body>
+
 </html>
