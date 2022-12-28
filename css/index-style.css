@@ -248,8 +248,8 @@ body {
   } /*thân chứa nội dung */
   .close {
     position: absolute; /*cố định tại 1 vị trí*/
-    right: -2px;
-    top: -11px;
+    right: 0px;
+    top: -7px;
     color: rgb(230, 16, 16);
     font-size: 35px;
     font-weight: bold;
